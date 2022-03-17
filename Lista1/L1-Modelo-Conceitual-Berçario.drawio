@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T12:16:00.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="rmzvCjC1H-n1p4kX9-3s" version="17.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-17T17:38:58.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="OmKnxygjkgw_9HZAbApU" version="17.1.2" type="github" pages="5">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="2.Berçario">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -239,7 +239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Equipe Jogadores" id="OX-TcCdYONUZbopvIhtS">
-    <mxGraphModel dx="1185" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="Wj1TZeN6tD_Cmt7PT7n--0" />
         <mxCell id="Wj1TZeN6tD_Cmt7PT7n--1" parent="Wj1TZeN6tD_Cmt7PT7n--0" />
@@ -257,9 +257,6 @@
         </mxCell>
         <mxCell id="Wj1TZeN6tD_Cmt7PT7n--6" value="(0,1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Wj1TZeN6tD_Cmt7PT7n--1">
           <mxGeometry x="290" y="440" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Wj1TZeN6tD_Cmt7PT7n--7" value="&#xa;&#xa;&lt;b style=&quot;font-weight: normal&quot; id=&quot;docs-internal-guid-7c6218ee-7fff-ffdb-9079-2903026f9ba6&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;times new roman&amp;quot;; color: rgb(0, 0, 0); background-color: rgb(232, 232, 232); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;border: none ; display: inline-block ; overflow: hidden ; width: 576px ; height: 329px&quot;&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/R2P7F3n83BHHle6n_01FN9RJDu2I5XdLc2zzgwnE_Xm7_2EwgIcgZ0Mkl8tMqwBiDQF7fH2hLwPZmvEbyEQ1wcf0fGNlis2ndVHoK8VBqMT18Z42avKJrX9qzQa1tQ&quot; width=&quot;576&quot; height=&quot;329&quot; style=&quot;margin-left: 0px ; margin-top: 0px&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=10;" vertex="1" parent="Wj1TZeN6tD_Cmt7PT7n--1">
-          <mxGeometry x="340" y="130" width="160" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="Wj1TZeN6tD_Cmt7PT7n--8" value="(0.n)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Wj1TZeN6tD_Cmt7PT7n--1">
           <mxGeometry x="560" y="395" width="50" height="10" as="geometry" />
