@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mae_Possue_Bebes" directorySegmentName="seg_0" id="64FD91A7-EEAB-F6DB-5533-027FC1AE752A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:26:33 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<sourcePk>B2BF7174-7B6F-1B60-3369-40FE1CC75074</sourcePk>
+<targetPk>B2316EF5-5813-EEB5-1B92-AB7F095F3CBA</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FC7A3D5-B829-35F9-447A-FDCB38B0C734</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4A580C30-CA4A-1739-42E4-90FAAB601B66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

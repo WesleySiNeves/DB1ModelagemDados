@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A580C30-CA4A-1739-42E4-90FAAB601B66" name="Bebes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:22:50 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdBebe" id="5BC3C1E8-255D-5CD1-39A8-6A1B0E037ED3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:25:56 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMae" id="E1DF3198-36BC-0CE9-1F89-D52AC5623172">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:26:33 UTC</createdTime>
+<generatorID>64FD91A7-EEAB-F6DB-5533-027FC1AE752A</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<referedAttribute>925A2096-9756-A19E-8663-88CDC1D60233</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="333DC4FB-A94E-D6E9-3175-6D7EF7726E65">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:32:33 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="34B78E75-3CF5-5967-6607-36934B4CFFF6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:32:39 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PesoNascimento" id="F478D1FE-10B8-C8C9-17F8-7D596AE7C38B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:32:47 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="5C358C2B-FE46-4B4F-40CB-8C1B4F880D48">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 18:06:36 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMedico" id="1A6BBA2F-6B60-B41D-D8D1-13309B5E626C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 18:06:41 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2316EF5-5813-EEB5-1B92-AB7F095F3CBA" name="Bebes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 17:26:08 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<engineerTo>
+<item key="AFFC7350-3F30-7539-1A51-C2C7C3D9F29C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BC3C1E8-255D-5CD1-39A8-6A1B0E037ED3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
