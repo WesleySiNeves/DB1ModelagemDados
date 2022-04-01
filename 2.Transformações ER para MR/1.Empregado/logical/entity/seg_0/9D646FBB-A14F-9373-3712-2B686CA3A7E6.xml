@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D646FBB-A14F-9373-3712-2B686CA3A7E6" name="Empregado">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:53:04 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matricula" id="9A69F14B-19E8-91E6-0A75-CC3F47477BA2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:53:21 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="791E0547-60F6-76A7-D477-C6EB69D9C49C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:53:32 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="D021BA81-9C30-8402-9E72-0D03DD2DA7F3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:53:39 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco" id="12F22E9D-452A-35FD-871C-ABDA976B3D8D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:53:42 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="6F0D5527-BF6F-511B-DE72-3E2D6B1E8D7C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:54:10 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="A8115337-F220-35E1-A26E-89A4440B8D0F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 18:55:12 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
