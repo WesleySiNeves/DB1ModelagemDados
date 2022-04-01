@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCE1F92E-2243-D4B2-A5C5-44FEB77D722B" name="Maes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>6FC7A3D5-B829-35F9-447A-FDCB38B0C734</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMae" id="893BE745-7CDF-5BC1-F0E2-D1EE67634A3A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>925A2096-9756-A19E-8663-88CDC1D60233</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="321D06BE-CCD7-9039-49BF-C64F65E7A5D1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>9C1DAE93-653E-21A4-8B23-E40818C01869</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="078A2BAC-5CE3-656F-2EB4-7FF96C88F845">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>158D148C-0115-B0AF-D992-C03FFB67FD5B</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="9B26B71E-244F-A0D0-9038-9DDD1DA41C8B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>E8FDB1D6-B7C6-868E-518C-BA52C5E8B580</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="24D98277-D30E-85E7-3240-1DB1F99C2C31">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>6AC80443-D56C-C44E-4672-E7F3D40A1AE8</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73C9F2F0-1E96-AD0F-3ED3-B6F29087065E" name="Maes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>B2BF7174-7B6F-1B60-3369-40FE1CC75074</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893BE745-7CDF-5BC1-F0E2-D1EE67634A3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

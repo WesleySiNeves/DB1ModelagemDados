@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A0D3E66-E0C4-4152-3A2A-0F107E65FA44" name="Medicos_Fazem_Partos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Medicos_IdMedico" id="7CE9CE99-C17E-5694-5F23-ABF36BD026E7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86811BC8-BA70-A051-9FD4-F7ED18FE7D44" referredColumn="9183E5E8-6FD3-F9F2-C455-80837111A992"/>
+</associations>
+</Column>
+<Column name="Bebes_IdBebe" id="742CF6DE-E252-069E-6669-52F077198647">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66382C0F-77F1-1552-7151-011883CD8794" referredColumn="96AE5776-2698-39AB-7399-4B957A5204FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CABC2A8-BDD3-A31F-3324-6CFB315053AC" name="Medicos_Fazem_Partos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<ownerDesignName>Maternidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CE9CE99-C17E-5694-5F23-ABF36BD026E7"/>
+<colUsage columnID="742CF6DE-E252-069E-6669-52F077198647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E20AA3BA-F6E4-FDAB-3322-6EAE586E0053" name="Medicos_Fazem_Partos_Medicos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>42CCE05F-F626-AD98-D1A1-EADDEB9382E5</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CE9CE99-C17E-5694-5F23-ABF36BD026E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7935C376-F5A3-75CA-5C4A-E40B3640E8D4" name="Medicos_Fazem_Partos_Bebes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>42CCE05F-F626-AD98-D1A1-EADDEB9382E5</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="742CF6DE-E252-069E-6669-52F077198647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

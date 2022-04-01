@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86811BC8-BA70-A051-9FD4-F7ED18FE7D44" containerWithKeyObject="6A0D3E66-E0C4-4152-3A2A-0F107E65FA44" localFKIndex="E20AA3BA-F6E4-FDAB-3322-6EAE586E0053" name="Medicos_Fazem_Partos_Medicos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-03-25 20:08:19 UTC</createdTime>
+<generatorID>42CCE05F-F626-AD98-D1A1-EADDEB9382E5</generatorID>
+<ownerDesignName>Maternidade</ownerDesignName>
+<referredTableLongName>Medicos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0BA7921-1696-9E97-8830-63A7D4AF9388</referredTableID>
+<keyObject>4815EF6C-D63D-6EF6-BB5C-D8ADD5559AB0</keyObject>
+<referredKeyID>4815EF6C-D63D-6EF6-BB5C-D8ADD5559AB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdMedico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
