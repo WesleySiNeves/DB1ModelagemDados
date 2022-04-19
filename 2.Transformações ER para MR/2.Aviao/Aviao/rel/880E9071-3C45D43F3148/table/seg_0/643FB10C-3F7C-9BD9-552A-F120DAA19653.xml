@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="643FB10C-3F7C-9BD9-552A-F120DAA19653" name="TipoAviao">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>E64DF5A0-08DF-2BE0-2519-85CC45EDBDB4</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NomeTipo" id="B6972538-5BAA-642E-53F9-3215A548D96D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>1C64110F-1A19-B81D-6AB2-DE1F67E5C925</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa" id="F85F7223-6BAB-C0BF-4CA6-9B5CCB807EE2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>36443E08-A4DD-2D67-5554-80D7B0140426</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Configuracoes" id="9E1405DD-12A8-A0DF-FF4A-7FB899079105">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>640F7B24-96C5-601C-5228-FE7D39AA033E</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

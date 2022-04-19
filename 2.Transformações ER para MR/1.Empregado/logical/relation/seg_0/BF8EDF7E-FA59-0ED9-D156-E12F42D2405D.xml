@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Empregados_Trabalham_Projetos" directorySegmentName="seg_0" id="BF8EDF7E-FA59-0ED9-D156-E12F42D2405D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 19:51:08 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<sourcePk>93A8B22A-B7CA-DB43-2321-5B9FA606E9D1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D646FBB-A14F-9373-3712-2B686CA3A7E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5BB16014-DC03-1EB5-0482-80DEC2651999</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

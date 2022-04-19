@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D646FBB-A14F-9373-3712-2B686CA3A7E6" name="Empregado">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="220251ED-5D38-A08B-D51C-55F8A55501F4" name="Dependentes">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 18:53:04 UTC</createdTime>
+<createdTime>2022-04-01 19:42:13 UTC</createdTime>
 <ownerDesignName>1.Empregado</ownerDesignName>
 <engineerTo>
 <item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
@@ -15,108 +15,75 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Matricula" id="9A69F14B-19E8-91E6-0A75-CC3F47477BA2">
+<Attribute name="NomeDependente" id="197D1A9E-4301-050F-130F-EC1895E92265">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 18:53:21 UTC</createdTime>
+<createdTime>2022-04-01 19:42:25 UTC</createdTime>
 <ownerDesignName>1.Empregado</ownerDesignName>
 <engineerTo>
 <item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="B5AA40AB-23C1-F8C1-9404-9BE6F7A4C775">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 19:42:37 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="5E2DE23B-660D-FD1E-D6B2-D723BE9DA678">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 19:42:44 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="5ACEEA9C-84E8-2B2F-AB5F-90D92820268D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 19:42:51 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Matricula" id="7D36E034-8BCB-5113-BAD7-4BDE3BE0D9AA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-01 19:45:03 UTC</createdTime>
+<generatorID>03321CB7-D130-4184-553C-E5FCC4D47A31</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A69F14B-19E8-91E6-0A75-CC3F47477BA2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nome" id="791E0547-60F6-76A7-D477-C6EB69D9C49C">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 18:53:32 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Sexo" id="D021BA81-9C30-8402-9E72-0D03DD2DA7F3">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 18:53:39 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Rua" id="12F22E9D-452A-35FD-871C-ABDA976B3D8D">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 18:53:42 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Salario" id="6F0D5527-BF6F-511B-DE72-3E2D6B1E8D7C">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 18:54:10 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Bairro" id="5535465E-F12C-1D7F-8CCA-DC1C775D9025">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 19:13:57 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CEP" id="92FBE99A-07E6-2B58-B31B-BD7F019EFC8A">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 19:14:01 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Numero" id="4D8C332F-2AEF-16FE-5B6E-6935D41A1FEE">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 19:14:07 UTC</createdTime>
-<ownerDesignName>1.Empregado</ownerDesignName>
-<engineerTo>
-<item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="93A8B22A-B7CA-DB43-2321-5B9FA606E9D1" name="Empregado PK">
+<identifier id="0AA7E1A3-4AF1-BD5D-BFC8-A9842FA2527D" name="Dependentes PK">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-01 19:13:30 UTC</createdTime>
+<createdTime>2022-04-01 19:43:31 UTC</createdTime>
 <ownerDesignName>1.Empregado</ownerDesignName>
 <engineerTo>
 <item key="46FFC9AF-4938-4732-A093-CCA1890ED462" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>9A69F14B-19E8-91E6-0A75-CC3F47477BA2</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
