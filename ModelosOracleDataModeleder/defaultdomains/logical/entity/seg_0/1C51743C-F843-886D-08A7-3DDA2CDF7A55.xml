@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C51743C-F843-886D-08A7-3DDA2CDF7A55" name="TipoAviao">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:11:42 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NomeTipo" id="8BB3557D-5EAF-8620-9F21-FCCDBDCA5A11">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:11:52 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Empresa" id="AD51200F-E2D8-ADF2-6D98-7195BC3F131E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:12:01 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Configuraçoes" id="76809356-73E5-B96F-B801-715DE0AC5DC3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:12:10 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

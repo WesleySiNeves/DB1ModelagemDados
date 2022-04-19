@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="defaultdomains" id="6CE9AFE1-0739-6704-05FE-07BEDAA3366F" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 17:17:42 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6CE9AFE1-0739-6704-05FE-07BEDAA3366F</designId>
+</OSDM_Design>

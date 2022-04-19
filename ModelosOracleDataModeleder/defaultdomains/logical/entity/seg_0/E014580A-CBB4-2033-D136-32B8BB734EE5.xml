@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E014580A-CBB4-2033-D136-32B8BB734EE5" name="Aeroporto">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:06:43 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodAereo" id="25923461-41A0-EB81-EE1B-285A8B4AC5E7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:06:57 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="7ED6DCC4-E098-BBC1-CC02-6626EBA89C79">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:07:30 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="3247943B-A2EC-274D-E5E2-5207F62322EE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:07:39 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="C53BF85E-96C8-54E7-8DE4-620FFADCBEB1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:07:46 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC7261D1-D651-E210-ED68-A039652CBFEC" name="Aeroporto PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:09:56 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="796A5F67-9FFC-5958-D720-685A54BEE717" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25923461-41A0-EB81-EE1B-285A8B4AC5E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
