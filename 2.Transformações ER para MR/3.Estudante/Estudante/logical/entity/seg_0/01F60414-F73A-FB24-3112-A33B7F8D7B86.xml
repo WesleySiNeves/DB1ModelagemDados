@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01F60414-F73A-FB24-3112-A33B7F8D7B86" name="Estudante">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:51:02 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdEstudante" id="999C22A4-48CF-3C46-7C9E-76686D0B9095">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:51:27 UTC</createdTime>
+<comment><![CDATA[Chave Primária da tabela]]></comment>
+<commentInRDBMS><![CDATA[Chave Primária da tabela]]></commentInRDBMS>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="893F0A07-D571-E7FA-9B00-644CE92C3319">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:51:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo que será divido em Primeiro nome e ultimo nome]]></commentInRDBMS>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="FEFEE37F-9F9F-8360-E64D-025A41A87D4C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:51:49 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco" id="E7B5CEC5-1B0A-8238-D18A-3E98A37EFB77">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:52:07 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="456456F5-C52E-B5A4-811E-87A99454DFCB" name="Estudante PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:51:42 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>999C22A4-48CF-3C46-7C9E-76686D0B9095</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5678466-C9E0-A361-264F-BCA9943B5E95" name="Estudante">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:53:36 UTC</createdTime>
+<generatorID>01F60414-F73A-FB24-3112-A33B7F8D7B86</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEstudante" id="F97D997F-4E8F-B5F7-AA38-D4BCE88F0DE3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:53:36 UTC</createdTime>
+<comment><![CDATA[Chave Primária da tabela]]></comment>
+<commentInRDBMS><![CDATA[Chave Primária da tabela]]></commentInRDBMS>
+<generatorID>999C22A4-48CF-3C46-7C9E-76686D0B9095</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Primeiro" id="54DDE1DF-F67B-C59D-895D-607D97D02D66">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo que será divido em Primeiro nome e ultimo nome]]></commentInRDBMS>
+<generatorID>893F0A07-D571-E7FA-9B00-644CE92C3319</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ultimo" id="760B945E-EE56-EB8A-273E-97D378B8FEFF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:54:11 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="43D037E1-E045-B82F-6BD6-770DF6F25ADC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:53:36 UTC</createdTime>
+<generatorID>FEFEE37F-9F9F-8360-E64D-025A41A87D4C</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="D0FB0BE0-DE25-35B7-A23C-5755AE5B438C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:53:36 UTC</createdTime>
+<generatorID>E7B5CEC5-1B0A-8238-D18A-3E98A37EFB77</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="E22EC5B2-F6EB-CA5B-CA11-6E7CE74DDB34">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:54:53 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="D847B7D5-0608-7502-2D1C-9DB5D9014ABC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:54:53 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="27B92939-7AB3-A4D2-BAA8-924902153FAC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:54:53 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C2DC529-79B9-70F0-385B-F86A15E1D8A4" name="Estudante_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:53:36 UTC</createdTime>
+<generatorID>456456F5-C52E-B5A4-811E-87A99454DFCB</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F97D997F-4E8F-B5F7-AA38-D4BCE88F0DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
