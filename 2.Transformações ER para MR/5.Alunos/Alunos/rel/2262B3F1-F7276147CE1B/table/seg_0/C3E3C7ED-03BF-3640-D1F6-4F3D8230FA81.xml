@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3E3C7ED-03BF-3640-D1F6-4F3D8230FA81" name="Curso">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>9BA57A01-7939-C713-0D9D-E02C34C11C3F</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCurso" id="08D38498-3B19-7EE4-31CA-A1C5F0AF0176">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>41F45B6D-F7B7-8917-6CCB-958B792821A0</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula_IdMatricula" id="B2D3475E-4FD2-7ED1-874C-900A3280E685">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>34550A2C-921C-907F-9EB9-17D4103B56A5</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12D041E9-E78D-574A-3AE8-1B171EAE5599" referredColumn="CD66666B-5209-8073-FAC9-99669808D175"/>
+</associations>
+</Column>
+<Column name="Descrição" id="E026C7FE-8317-2E06-2699-42A4AE2FCB18">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>B3BA4207-2515-2DF8-24AC-6D4E59588D13</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Portaria" id="A0D4B160-353D-A98F-050D-7A14F416D5DA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>F0A4B39C-FC2A-84F4-94B7-2CB7BA5641D3</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E472ABBC-8D56-46DC-3018-6A8657EF414F" name="Curso_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>8FA05AF1-EE8F-42B7-2935-BD8F18CF0D31</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D38498-3B19-7EE4-31CA-A1C5F0AF0176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F0895F0-CFD3-2C86-4EC8-29576159F5F9" name="Curso__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6BE24424-46E1-4B47-3C8F-CF5273B1049E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B2D3475E-4FD2-7ED1-874C-900A3280E685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35C5996D-BA75-A740-0D6F-7B9A4D3F96DB" name="Curso_Matricula_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:50:37 UTC</createdTime>
+<generatorID>6BE24424-46E1-4B47-3C8F-CF5273B1049E</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2D3475E-4FD2-7ED1-874C-900A3280E685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

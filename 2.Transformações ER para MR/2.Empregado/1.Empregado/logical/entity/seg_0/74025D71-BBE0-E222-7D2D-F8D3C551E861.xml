@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74025D71-BBE0-E222-7D2D-F8D3C551E861" name="Dependentes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:37:46 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDependente" id="C46B137F-2142-8112-3A47-7F168DCCC2EF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:43:37 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeDependente" id="414A6C00-FA39-9BFD-DB0F-2A6B4B8B4849">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:39:24 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="44A05444-622C-FAEE-BBC9-0C6891CBB6BF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:40:03 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="CF35AE5F-2446-6047-A75A-DDF31513C5E2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:43:02 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesto" id="62B0A3AB-5B44-0EF8-BEB6-8231E3A27673">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:43:10 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEmpregado" id="64F9DEB4-18D5-28CA-681D-14A187733D4E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:45:51 UTC</createdTime>
+<generatorID>6D5132EE-B850-F108-A190-AE795320C59F</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EA9A6D5B-7134-2997-83FA-407F70D0D5E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F305B369-409F-57B4-FEDA-41938B9E1F40" name="Dependentes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:43:47 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C46B137F-2142-8112-3A47-7F168DCCC2EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

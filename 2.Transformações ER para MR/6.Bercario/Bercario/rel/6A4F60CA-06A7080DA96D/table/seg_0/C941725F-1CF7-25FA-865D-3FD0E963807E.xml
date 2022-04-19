@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C941725F-1CF7-25FA-865D-3FD0E963807E" name="Medicos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>C0EA375D-7D22-5A21-5616-4B6E88B15C55</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMedico" id="D53EDAC7-BE72-2729-D562-CAB42CA43EDE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>7B5279C1-21F5-0DDA-EB74-6F0E52FEAD75</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRM" id="0D87F4D7-7A30-4F37-1A7A-ED4B081F50F0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>FA34D5AD-0A44-9242-5A18-5E205A21228B</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="87685542-DF8D-2E9F-FCC7-A148B6CA8040">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>D6DFB788-C34A-72D6-4C35-844C4B80800A</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="FF9D7EAF-5873-5B6A-0A5D-EFF36C953F9C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>904B98B5-FC66-9B9B-3190-D3127A737829</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Celular" id="6DC5155E-1DFE-499F-0970-9541FB8689D0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>59AB82BE-9D73-EB3F-8196-E978F6304BA2</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especialidade" id="6D235605-97BB-B64E-3E75-2BDBC3422A6F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>504B3235-85A0-980F-071C-D50CC2D07D10</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="821F3EBD-AD3F-B5F4-37F4-5ED97E7736B0" name="Medicos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 21:02:16 UTC</createdTime>
+<generatorID>FDBC28CF-D2D3-9009-D8EC-BAADDAE919C2</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D53EDAC7-BE72-2729-D562-CAB42CA43EDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
