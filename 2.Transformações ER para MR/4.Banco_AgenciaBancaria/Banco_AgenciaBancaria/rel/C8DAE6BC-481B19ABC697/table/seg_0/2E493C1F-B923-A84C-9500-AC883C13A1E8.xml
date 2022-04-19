@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E493C1F-B923-A84C-9500-AC883C13A1E8" name="Conta">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:05:14 UTC</createdTime>
+<generatorID>F5E0EB7E-5D95-E546-1547-DC093F977EC4</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Endereco" id="BB496F40-B0C8-3795-B4DE-5035EE225FB2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:05:14 UTC</createdTime>
+<generatorID>EC55E8CF-5154-2DE8-2367-6C8F82081B8E</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="F0E97C9F-DF00-34DC-D15F-6C7F11D16929">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:05:14 UTC</createdTime>
+<generatorID>7EFFFD69-55CC-AA1C-1605-5D331C79279F</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="4E06ED15-05A1-DCD8-B54A-29F257410BBE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:05:14 UTC</createdTime>
+<generatorID>6D61DC71-2443-E30B-1FC6-0DC7B7EDA25D</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F439CAF-7392-56F1-B0C9-3AD037683718" name="Conta_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:05:14 UTC</createdTime>
+<generatorID>B7CFA05B-F528-53C5-454C-68DDA4AC4116</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0E97C9F-DF00-34DC-D15F-6C7F11D16929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

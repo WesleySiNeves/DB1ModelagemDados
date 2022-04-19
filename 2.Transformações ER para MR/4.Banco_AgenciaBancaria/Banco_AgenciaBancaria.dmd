@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banco_AgenciaBancaria" id="A54E0DE0-21E5-497E-9626-5AF97A2A7C25" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:57:42 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A54E0DE0-21E5-497E-9626-5AF97A2A7C25</designId>
+</OSDM_Design>

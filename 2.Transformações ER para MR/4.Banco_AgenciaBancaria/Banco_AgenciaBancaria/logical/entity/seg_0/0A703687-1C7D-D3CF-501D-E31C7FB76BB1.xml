@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A703687-1C7D-D3CF-501D-E31C7FB76BB1" name="Banco">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:58:01 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<engineerTo>
+<item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="673B6D5B-33B3-DCF4-1552-23323293983F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:59:17 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<engineerTo>
+<item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="4309D843-8D7C-BC0F-1116-DC11DA3A8084">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:59:25 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<engineerTo>
+<item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco" id="73E21CE4-76E1-6741-327B-01A68FC171C4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:59:30 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<engineerTo>
+<item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6775035-4560-99AB-D8E8-12CCB2F07C50" name="Banco PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:59:47 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<engineerTo>
+<item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>673B6D5B-33B3-DCF4-1552-23323293983F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
