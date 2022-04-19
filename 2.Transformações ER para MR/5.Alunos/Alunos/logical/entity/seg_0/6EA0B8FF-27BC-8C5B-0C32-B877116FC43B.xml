@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EA0B8FF-27BC-8C5B-0C32-B877116FC43B" name="Aluno">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:43:23 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAluno" id="D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:43:29 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="E028F23D-E01C-B778-AAD1-A121C8B34156">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:43:37 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="F4973C46-7EEF-BCCC-BA0A-D71F69518E26">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:43:42 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco" id="5B4ED9F1-D6D2-E1C7-343B-D79CE5718734">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:43:49 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMatricula" id="E93F5A1F-B2D2-A2D7-2CE9-B688758F0DD7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:47:36 UTC</createdTime>
+<generatorID>F39248BC-C43F-9209-3CE0-D1631079ED1A</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<referedAttribute>D4FFF88F-D37B-E65F-18D9-6736CA38B2E7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="803BAA28-874E-BC5F-2DC2-B15BE8E4E2A7" name="Aluno PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:44:13 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

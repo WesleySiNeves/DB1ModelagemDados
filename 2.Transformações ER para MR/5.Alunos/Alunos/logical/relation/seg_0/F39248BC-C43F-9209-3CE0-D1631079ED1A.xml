@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Aluno_Tem_Matricula" directorySegmentName="seg_0" id="F39248BC-C43F-9209-3CE0-D1631079ED1A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:47:04 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<sourcePk>803BAA28-874E-BC5F-2DC2-B15BE8E4E2A7</sourcePk>
+<targetPk>7E5A95DE-D259-4E27-3C44-08FDFADB02A6</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EA0B8FF-27BC-8C5B-0C32-B877116FC43B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>67072EC3-E0C2-439D-6EFE-E33045DA6B33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
