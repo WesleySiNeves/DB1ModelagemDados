@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="IdAluno" id="D280BB34-8A99-7EE6-0241-012FDCF278BD">
@@ -35,7 +37,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

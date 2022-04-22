@@ -22,32 +22,24 @@
 <engineerTo>
 <item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdAluno" id="2B5D7CD2-1526-5AE3-755A-656C5D1D9207">
+<Attribute name="IdAluno" id="E8AB487A-745C-6B38-AC22-8253454E9728">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:47:04 UTC</createdTime>
+<createdTime>2022-04-22 16:41:10 UTC</createdTime>
 <generatorID>F39248BC-C43F-9209-3CE0-D1631079ED1A</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
 <engineerTo>
 <item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdCurso" id="6273F979-FC2A-D0DA-DB75-1C19E0432C3B">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:48:27 UTC</createdTime>
-<generatorID>6BE24424-46E1-4B47-3C8F-CF5273B1049E</generatorID>
-<ownerDesignName>Alunos</ownerDesignName>
-<engineerTo>
-<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
-</engineerTo>
-<referedAttribute>41F45B6D-F7B7-8917-6CCB-958B792821A0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

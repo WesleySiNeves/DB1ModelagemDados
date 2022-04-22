@@ -48,18 +48,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B7CFA05B-F528-53C5-454C-68DDA4AC4116" name="Conta PK">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:03:05 UTC</createdTime>
-<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
-<engineerTo>
-<item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>7EFFFD69-55CC-AA1C-1605-5D331C79279F</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

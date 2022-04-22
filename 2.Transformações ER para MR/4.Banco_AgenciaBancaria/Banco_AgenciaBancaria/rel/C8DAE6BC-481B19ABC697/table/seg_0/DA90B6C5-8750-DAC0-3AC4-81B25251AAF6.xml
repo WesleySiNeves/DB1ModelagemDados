@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA90B6C5-8750-DAC0-3AC4-81B25251AAF6" name="Cliente">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>BE548F88-739B-E00B-A061-0D2E664A20FA</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="19043432-1C04-36A3-CE52-C574EFF0678B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>728570F6-2B02-D5A6-A444-390852068A0F</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="96A61E3B-4D35-41FA-0CD8-2D192A7D8955">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>F8C5ACED-3197-FEBE-B96A-DA37E1AE4E87</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="89951CED-DFF9-5EAE-312A-70EB32874265">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Composto]]></commentInRDBMS>
+<generatorID>E62E1A6F-10E2-1D5D-74F2-5EF61C42B9E0</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="70150720-5D17-F25E-2D3D-F1F22B62CE36">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Multivalorado]]></commentInRDBMS>
+<generatorID>C781604F-ED22-37F6-55E0-F8D9BE98C70E</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="608F2359-A2E0-5CB0-B36F-6120474916A2" name="Cliente_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>5729ABCE-4648-8DA2-0792-59A8F92B2C49</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19043432-1C04-36A3-CE52-C574EFF0678B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

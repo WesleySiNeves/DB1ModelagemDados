@@ -24,6 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nome" id="D0856572-9B46-964F-3459-CD7D10CD3FCC">
@@ -79,7 +80,9 @@
 <item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
 </engineerTo>
 <referedAttribute>44203A2C-DB63-9DBF-84DB-ACCA699FF088</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -94,7 +97,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>413DC3B6-9A72-E0A7-2C3A-5F3C7E906724</attributeRef>
-<attributeRef>B463E352-A897-14CC-4D39-00FAAE525727</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B3B016E-F14C-1774-0416-CB45A968B115" name="Telefones">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:54:41 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTelefone" id="A7599756-6C66-073E-005A-EA4FD9EBB970">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:56:47 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="664AD00D-CFC5-E214-0800-81032501A561">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:57:20 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdAgenciaBancaria" id="C69229EF-28B5-89B2-2161-9CEC82A7FC13">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:57:37 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3FB1B8F-D417-B749-EDD2-AAF302EA3610" referredColumn="E3C60D15-37C2-5942-FD36-38D95249D60D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1C28611-1334-3A53-DD19-82C5E21C3B81" name="Telefones_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:56:51 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7599756-6C66-073E-005A-EA4FD9EBB970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B3D8F92-80FB-4FDD-A631-3A72E71A5D09" name="Telefones_AgenciaBancaria_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:57:37 UTC</createdTime>
+<generatorID>BC15C46E-88BB-8032-2785-102278CC7465</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C69229EF-28B5-89B2-2161-9CEC82A7FC13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

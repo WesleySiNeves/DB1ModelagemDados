@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="643FB10C-3F7C-9BD9-552A-F120DAA19653" name="TipoAviao">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>E64DF5A0-08DF-2BE0-2519-85CC45EDBDB4</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTipoAviao" id="16B8C597-B0AE-10E1-8083-41D646950E3A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 12:08:23 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeTipo" id="B6972538-5BAA-642E-53F9-3215A548D96D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>1C64110F-1A19-B81D-6AB2-DE1F67E5C925</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa" id="F85F7223-6BAB-C0BF-4CA6-9B5CCB807EE2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>36443E08-A4DD-2D67-5554-80D7B0140426</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5491A10A-4B7F-3B0E-C784-FD18E6FE9CCE" name="TipoAviao_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 12:08:23 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16B8C597-B0AE-10E1-8083-41D646950E3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

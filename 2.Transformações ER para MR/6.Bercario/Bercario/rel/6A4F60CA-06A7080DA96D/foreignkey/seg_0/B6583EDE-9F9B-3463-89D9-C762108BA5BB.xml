@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6583EDE-9F9B-3463-89D9-C762108BA5BB" containerWithKeyObject="6E6CB4FE-7180-E469-9C71-6704676D26A6" localFKIndex="FFB35409-ECDB-D02F-299B-6E9EF6B77EAB" name="FK_Medicos_Executam_Parto_Bebes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:11:34 UTC</createdTime>
+<generatorID>454AA744-F465-C855-53DC-4E067B6927AB</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<referredTableLongName>Bebes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD794443-08F5-6A39-DEFF-C932F763EEF6</referredTableID>
+<keyObject>E900D979-91DB-982A-D9E8-80C69AC4EDC9</keyObject>
+<referredKeyID>E900D979-91DB-982A-D9E8-80C69AC4EDC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdBebe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

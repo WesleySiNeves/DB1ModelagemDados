@@ -28,17 +28,21 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ultimo" id="760B945E-EE56-EB8A-273E-97D378B8FEFF">
+<Column name="Ultimo" id="DBDAE332-614D-2FD4-B8B4-789AFDD53B99">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 19:54:11 UTC</createdTime>
+<createdTime>2022-04-22 16:27:33 UTC</createdTime>
 <ownerDesignName>Estudante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sexo" id="43D037E1-E045-B82F-6BD6-770DF6F25ADC">
@@ -49,7 +53,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Rua" id="D0FB0BE0-DE25-35B7-A23C-5755AE5B438C">
@@ -63,27 +69,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Numero" id="E22EC5B2-F6EB-CA5B-CA11-6E7CE74DDB34">
+<Column name="Numero" id="0E9CA4B2-FFC9-A3FE-3223-F07FB1AB5684">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 19:54:53 UTC</createdTime>
+<createdTime>2022-04-22 16:28:38 UTC</createdTime>
 <ownerDesignName>Estudante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Bairro" id="D847B7D5-0608-7502-2D1C-9DB5D9014ABC">
+<Column name="Bairro" id="7C0969E3-7E35-373E-29C9-A94CD75A5C58">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 19:54:53 UTC</createdTime>
+<createdTime>2022-04-22 16:28:38 UTC</createdTime>
 <ownerDesignName>Estudante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CEP" id="27B92939-7AB3-A4D2-BAA8-924902153FAC">
+<Column name="CEP" id="12821E3A-B31B-A5AB-76C2-0DF91355B384">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 19:54:53 UTC</createdTime>
+<createdTime>2022-04-22 16:28:38 UTC</createdTime>
 <ownerDesignName>Estudante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

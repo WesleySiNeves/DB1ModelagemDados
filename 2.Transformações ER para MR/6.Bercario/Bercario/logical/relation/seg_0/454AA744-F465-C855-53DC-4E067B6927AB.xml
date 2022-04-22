@@ -7,7 +7,6 @@
 <item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
 </engineerTo>
 <sourcePk>E9EFCC99-F8FD-443C-57B4-86911785A470</sourcePk>
-<targetPk>FDBC28CF-D2D3-9009-D8EC-BAADDAE919C2</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
@@ -17,4 +16,17 @@
 <targetEntity>C0EA375D-7D22-5A21-5616-4B6E88B15C55</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DataParto" id="83A6B634-20DD-37CA-62B8-C6C6BDA115C4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:06:41 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
 </Relation>

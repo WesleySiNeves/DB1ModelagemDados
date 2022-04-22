@@ -24,7 +24,9 @@
 <engineerTo>
 <item key="06ED1238-7842-6399-271B-DC1035B4C37F" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nome" id="893F0A07-D571-E7FA-9B00-644CE92C3319">

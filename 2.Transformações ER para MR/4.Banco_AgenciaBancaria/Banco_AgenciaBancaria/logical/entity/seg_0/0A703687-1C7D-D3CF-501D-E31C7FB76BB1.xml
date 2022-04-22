@@ -39,6 +39,7 @@
 <Attribute name="Endereco" id="73E21CE4-76E1-6741-327B-01A68FC171C4">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-19 19:59:30 UTC</createdTime>
+<comment><![CDATA[Esse Atributo é Composto]]></comment>
 <ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
 <engineerTo>
 <item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>

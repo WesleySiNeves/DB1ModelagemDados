@@ -2,6 +2,7 @@
 <RMExtendedMap class="oracle.dbtools.crest.model.xtdmapping.RMExtendedMap">
 <mappings itemClass="oracle.dbtools.crest.model.xtdmapping.ContainerMapping">
 <CM id="01F60414-A33B7F8D7B86B5678466-BCA9943B5E95" lID="01F60414-F73A-FB24-3112-A33B7F8D7B86" lT="0" rID="B5678466-C9E0-A361-264F-BCA9943B5E95" rT="4">
+<keysSelection>456456F5-C52E-B5A4-811E-87A99454DFCB</keysSelection>
 <containedMappings itemClass="oracle.dbtools.crest.model.xtdmapping.RelMapping">
 <Mg id="456456F5-87A99454DFCB6C2DC529-F86A15E1D8A4" lID="456456F5-C52E-B5A4-811E-87A99454DFCB" lT="2" rID="6C2DC529-79B9-70F0-385B-F86A15E1D8A4" rT="7">
 </Mg>

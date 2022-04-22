@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F23AA258-130F-2140-C231-9E980BBC6C6E" name="AgenciaBancaria">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>9A7885A4-13C5-9168-01F5-DD391D7B7312</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAgenciaBancaria" id="E3C60D15-37C2-5942-FD36-38D95249D60D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:51:40 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroAgencia" id="7DC5DDC5-D3E2-3774-20B5-999F71D1E7C9">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>B101BF5C-C9B9-DEA2-0F9C-1A2DF8DE2CCE</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="A6144B35-95E1-8CF5-D7DA-F851D09C82EF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é MultiValorado]]></commentInRDBMS>
+<generatorID>64F1E7DA-B577-B959-1424-92D8A38B1AF9</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="3C0DC510-7729-7340-E97C-047DE94BBC6B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Composto]]></commentInRDBMS>
+<generatorID>DEA5501E-9029-334D-A7E7-1F8F0FE8A078</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="380F17BD-EF5F-78C5-DA75-182E3D0155F1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:54:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Composto]]></commentInRDBMS>
+<generatorID>DEA5501E-9029-334D-A7E7-1F8F0FE8A078</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="C111F814-3041-834C-270E-7081E2729DDB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:54:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Composto]]></commentInRDBMS>
+<generatorID>DEA5501E-9029-334D-A7E7-1F8F0FE8A078</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="0A98B2EB-2BC1-71E7-A26A-D28E1B375B4E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:54:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Composto]]></commentInRDBMS>
+<generatorID>DEA5501E-9029-334D-A7E7-1F8F0FE8A078</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9F6744B-C3E8-97C6-3172-3E9D43C4161D" name="AgenciaBancaria_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 20:46:22 UTC</createdTime>
+<generatorID>BC15C46E-88BB-8032-2785-102278CC7465</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C60D15-37C2-5942-FD36-38D95249D60D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

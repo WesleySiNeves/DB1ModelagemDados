@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nome" id="806D3549-3EFE-DB93-7525-117B98CC18FB">
@@ -56,6 +58,18 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="32AD5652-EB40-E4A8-3C74-01826BC91E48">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:07:42 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

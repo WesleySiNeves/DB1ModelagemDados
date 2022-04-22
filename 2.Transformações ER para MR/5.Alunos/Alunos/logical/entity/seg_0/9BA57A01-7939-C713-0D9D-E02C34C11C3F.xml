@@ -24,18 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdMatricula" id="34550A2C-921C-907F-9EB9-17D4103B56A5">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:48:34 UTC</createdTime>
-<generatorID>6BE24424-46E1-4B47-3C8F-CF5273B1049E</generatorID>
-<ownerDesignName>Alunos</ownerDesignName>
-<engineerTo>
-<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
-</engineerTo>
-<referedAttribute>D4FFF88F-D37B-E65F-18D9-6736CA38B2E7</referedAttribute>
-<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Descrição" id="B3BA4207-2515-2DF8-24AC-6D4E59588D13">
@@ -59,6 +48,20 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMatricula" id="189E6411-EB07-B554-F397-304EA9BA532D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:52:10 UTC</createdTime>
+<generatorID>1845F3A1-A724-E626-10FA-2C6FAAE2DC65</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<referedAttribute>D4FFF88F-D37B-E65F-18D9-6736CA38B2E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

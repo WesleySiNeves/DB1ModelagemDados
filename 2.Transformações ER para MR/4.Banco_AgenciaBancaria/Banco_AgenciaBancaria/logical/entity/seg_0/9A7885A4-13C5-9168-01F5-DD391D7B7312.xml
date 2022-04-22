@@ -29,6 +29,7 @@
 <Attribute name="Endereco" id="DEA5501E-9029-334D-A7E7-1F8F0FE8A078">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-19 20:01:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Composto]]></commentInRDBMS>
 <ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
 <engineerTo>
 <item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
@@ -40,6 +41,7 @@
 <Attribute name="Telefone" id="64F1E7DA-B577-B959-1424-92D8A38B1AF9">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-19 20:01:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é MultiValorado]]></commentInRDBMS>
 <ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
 <engineerTo>
 <item key="C8DAE6BC-7ED0-3339-9AEB-481B19ABC697" value="true"/>
