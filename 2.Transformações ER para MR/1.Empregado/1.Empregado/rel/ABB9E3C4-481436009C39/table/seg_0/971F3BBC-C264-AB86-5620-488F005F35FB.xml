@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="971F3BBC-C264-AB86-5620-488F005F35FB" name="Empregado">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>C8B6BB72-6C19-4F25-0736-6565219364C4</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEmpregado" id="E801B139-4E0E-1CFF-1D9A-B92A50491306">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>459FD5E0-2B0C-422D-8EA3-206516BD9F11</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="229AB0F4-305A-31A6-90D2-26326022F04F" name="Empregado_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>5D114D1A-4C7E-1729-1FC9-7B534BB34DB0</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E801B139-4E0E-1CFF-1D9A-B92A50491306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

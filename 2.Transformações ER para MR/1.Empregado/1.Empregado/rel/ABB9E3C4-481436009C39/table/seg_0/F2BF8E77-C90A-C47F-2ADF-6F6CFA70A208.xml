@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2BF8E77-C90A-C47F-2ADF-6F6CFA70A208" name="Dependentes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>2321310E-7BB5-A48D-041A-7DFCB00CF7A2</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDependente" id="0301F3BE-47A9-EC67-62FD-A8F97B407238">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>D1C5DFD9-4595-1048-57BB-8DA578D9B476</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdEmpregado" id="23087138-7CFB-3C96-5E38-65859D879BFE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>764C4A3F-B6B1-7A1B-AB11-28E296154B84</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="568EF56C-8318-C692-923C-61DF9F34027D" referredColumn="E801B139-4E0E-1CFF-1D9A-B92A50491306"/>
+</associations>
+</Column>
+<Column name="NomeDependente" id="7A9B7737-DAC1-6298-C1A5-C259770E76C8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>A83300BC-DA5D-6F29-466B-A137779C2FBA</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="33E2EFF9-819E-AABE-7CE9-7241A669B21D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>24C356DC-AF05-148E-2727-0D09A9DADE87</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="0DDD291A-7AE9-CFB3-C958-AFD09DDD3B67">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>6647BA5F-2E0B-E06D-BD39-F5DD50BAB3B9</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parentesco" id="29EBB57C-CCF5-7386-20E9-D41FEF62F8CB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>5436D359-714C-6D2C-5E23-ACCB7F28F540</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DCB7DF1-B4C4-3B7F-A08B-72E868E079AF" name="Dependentes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>79E501C6-9C7C-0C29-303D-FF7473EE479D</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0301F3BE-47A9-EC67-62FD-A8F97B407238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B5AD51F-3B79-D97B-09D1-6393CD26F34B" name="Dependentes_Empregado_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:47:34 UTC</createdTime>
+<generatorID>A925E981-8C38-CD05-6BE7-B9551AD50686</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23087138-7CFB-3C96-5E38-65859D879BFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

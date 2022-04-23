@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D957A61-5917-EDA8-C583-0D06FEFB782D" name="Inquilinos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>0BFF9C37-616D-FFCE-3F17-C590737C0F6D</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdInquilino" id="8D2AEEB7-797C-A937-4C02-B2052D2AD25D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>C4C13E37-523D-4B88-CB95-ACAD8004D396</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCorretor" id="D34BFE71-8403-3682-37A5-BC64525FF002">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>2477FF94-47B7-42AB-47F4-2B737112608B</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C622C11-6DC5-1F47-5448-F1745B7DB1BD" referredColumn="F1459F40-D46B-283F-65DC-3D7545246F89"/>
+</associations>
+</Column>
+<Column name="IdImovel" id="3D66E472-9878-3954-1349-0D8A9532766F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>97152653-E350-8820-FEA6-3B50CD21E952</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40CEB8ED-7DDC-B3F4-2855-24DD2F056839" referredColumn="47A5B11C-C757-A4E3-4CCA-FAADFF0A7B97"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08CCE38E-F6A1-4C27-83BB-CC365C60B7A9" name="Inquilinos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>2DE0E72A-B966-1BC5-B8A3-7814F4F0C3F3</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D34BFE71-8403-3682-37A5-BC64525FF002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F639A4BA-5952-B6AE-DCB5-70E8E805D0D4" name="Inquilinos__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1AC88830-1B9B-703A-E612-F1FFAB9AA094</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3D66E472-9878-3954-1349-0D8A9532766F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4376CF0-4852-A9AE-14B0-B7BF42C7A3E0" name="Inquilinos_Corretores_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>F670910F-1193-5870-7DE1-68B378797C01</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D34BFE71-8403-3682-37A5-BC64525FF002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25B6AC4E-A190-F151-7829-35AAF8233741" name="Inquilinos_Imoveis_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>1AC88830-1B9B-703A-E612-F1FFAB9AA094</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D66E472-9878-3954-1349-0D8A9532766F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

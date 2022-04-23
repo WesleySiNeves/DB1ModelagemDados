@@ -1,28 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08FE4844-8D38-BE50-7F3D-5D9826A1FA88" name="Notas">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26B8F142-E773-D482-2E62-AF66D3AC276F" name="Matricula">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:50:37 UTC</createdTime>
-<generatorID>E908AC2A-EF76-351F-B55A-C210D74D0DE4</generatorID>
+<createdTime>2022-04-22 16:53:37 UTC</createdTime>
+<generatorID>67072EC3-E0C2-439D-6EFE-E33045DA6B33</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="IdNota" id="D3E221D8-B41F-158D-AA17-70BE6A1F45DB">
+<Column name="IdMatricula" id="B19FA79A-B556-EBA1-FA0B-8E08786852A0">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:50:37 UTC</createdTime>
-<generatorID>00B8196E-F501-0AEE-5D2E-B864FDD45339</generatorID>
+<createdTime>2022-04-22 16:53:37 UTC</createdTime>
+<generatorID>D4FFF88F-D37B-E65F-18D9-6736CA38B2E7</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Aluno_IdAluno" id="4E5BA7B1-EC72-2E03-D56B-D5872BE11186">
+<Column name="Aluno_IdAluno" id="F395E311-FCEF-43AC-9BD1-40A5D2624885">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:50:37 UTC</createdTime>
-<generatorID>D280BB34-8A99-7EE6-0241-012FDCF278BD</generatorID>
+<createdTime>2022-04-22 16:53:37 UTC</createdTime>
+<generatorID>E8AB487A-745C-6B38-AC22-8253454E9728</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -30,32 +31,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="43E652BA-0069-B971-E873-7AC616F87CE0" referredColumn="837B39DF-C7CB-B347-053D-868A43A081F9"/>
+<colAssociation fkAssociation="108C8B7A-8243-7498-614A-957730715E88" referredColumn="A2D7CAA4-F4D6-975D-F87E-493DD7E6AFFE"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="65CE8444-B64D-79F3-AB7E-738B993AEA67" name="Notas_PK">
+<ind_PK_UK id="0796A053-B044-423D-013D-C9A692E5AE72" name="Matricula_PK">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:50:37 UTC</createdTime>
-<generatorID>584FB1F1-29C8-1254-5796-8195A94ABDCB</generatorID>
+<createdTime>2022-04-22 16:53:37 UTC</createdTime>
+<generatorID>7E5A95DE-D259-4E27-3C44-08FDFADB02A6</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D3E221D8-B41F-158D-AA17-70BE6A1F45DB"/>
+<colUsage columnID="B19FA79A-B556-EBA1-FA0B-8E08786852A0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E2917239-B957-C735-E9F6-192A551752D7" name="Notas_Aluno_FK">
+<ind_PK_UK id="EE45C771-D0A3-6121-CCC6-FE60AA7FD779" name="Matricula_Aluno_FK">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:50:37 UTC</createdTime>
-<generatorID>A884B724-754A-FFE9-E3F7-5E0E259CACDE</generatorID>
+<createdTime>2022-04-22 16:53:37 UTC</createdTime>
+<generatorID>F39248BC-C43F-9209-3CE0-D1631079ED1A</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4E5BA7B1-EC72-2E03-D56B-D5872BE11186"/>
+<colUsage columnID="F395E311-FCEF-43AC-9BD1-40A5D2624885"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

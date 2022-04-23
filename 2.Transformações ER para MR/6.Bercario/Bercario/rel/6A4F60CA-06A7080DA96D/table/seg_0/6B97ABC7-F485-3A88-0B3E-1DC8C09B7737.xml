@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B97ABC7-F485-3A88-0B3E-1DC8C09B7737" name="Bebes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>F86CBAFA-66F9-8605-B496-5072B5BD50BF</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdBebe" id="74B57895-67DE-95BC-C50D-4D2F42BFD5DC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>413DC3B6-9A72-E0A7-2C3A-5F3C7E906724</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="3C49E1F0-2297-D268-6AFD-74EEFAEBA80F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>D0856572-9B46-964F-3459-CD7D10CD3FCC</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="F17D3CF9-468F-1B93-9984-7EA5D88EAA45">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>B5CE2FF1-8095-262A-7F47-4C5A314D4AF6</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PesoNascimento" id="B60513BE-044D-75B2-E111-86B3623B2631">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>31C7471B-48DC-ABA4-F4F1-0D2CB3B0F1C4</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Altura" id="89D82EBB-9C66-31C3-D6D4-19F4973DC026">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>0454833C-1508-4720-0E1F-9A39FC07A713</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdMae" id="D0010438-5C6F-0D62-EA78-41716DDDF2E5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>B463E352-A897-14CC-4D39-00FAAE525727</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BBB6EF2-8C0A-1F17-7592-B58EB82742B1" referredColumn="357C80FF-C28B-D8D1-9759-C8D31A50F0BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B31A6F4-5033-6392-CB6C-6D4E32DB1956" name="Bebes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>E9EFCC99-F8FD-443C-57B4-86911785A470</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B57895-67DE-95BC-C50D-4D2F42BFD5DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B101839-8AEF-E66C-8A90-15975C3A1E16" name="Bebes_Maes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:10:28 UTC</createdTime>
+<generatorID>7DD42FDA-4747-167B-0960-77CEB18936B9</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0010438-5C6F-0D62-EA78-41716DDDF2E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

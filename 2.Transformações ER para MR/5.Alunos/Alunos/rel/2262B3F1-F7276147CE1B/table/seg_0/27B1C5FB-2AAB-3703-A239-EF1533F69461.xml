@@ -13,7 +13,9 @@
 <createdTime>2022-04-19 20:50:37 UTC</createdTime>
 <generatorID>D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE</generatorID>
 <ownerDesignName>Alunos</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -80,7 +82,6 @@
 <ownerDesignName>Alunos</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>F39248BC-C43F-9209-3CE0-D1631079ED1A</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="47F43B25-0403-E0A6-C990-F7C42D8F284D"/>
 </indexColumnUsage>

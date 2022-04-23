@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Matricula_Pertence_Curso" directorySegmentName="seg_0" id="6BE24424-46E1-4B47-3C8F-CF5273B1049E">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="3F025DA8-FFBF-CEB0-66CB-0855238AAED2">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 20:47:56 UTC</createdTime>
+<createdTime>2022-04-22 16:50:22 UTC</createdTime>
 <ownerDesignName>Alunos</ownerDesignName>
 <engineerTo>
 <item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
 </engineerTo>
 <sourcePk>7E5A95DE-D259-4E27-3C44-08FDFADB02A6</sourcePk>
-<targetPk>8FA05AF1-EE8F-42B7-2935-BD8F18CF0D31</targetPk>
+<dominantRole>67072EC3-E0C2-439D-6EFE-E33045DA6B33</dominantRole>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>67072EC3-E0C2-439D-6EFE-E33045DA6B33</sourceEntity>

@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A5BF083-D372-C038-9B8E-6049C9F26616" name="Corretores">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>D892FB86-5E04-77EF-952A-C6CA6FD20753</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCorretor" id="F1459F40-D46B-283F-65DC-3D7545246F89">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>1B0111D3-1E20-D716-C425-DF2AA926C109</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBB06F3B-2830-9870-B1D3-755718E4B01D" name="Corretores_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:42:08 UTC</createdTime>
+<generatorID>B8B33612-DC05-DE26-E13E-E58D4AA98194</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1459F40-D46B-283F-65DC-3D7545246F89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

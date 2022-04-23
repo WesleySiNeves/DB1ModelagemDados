@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2321310E-7BB5-A48D-041A-7DFCB00CF7A2" name="Dependentes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:41:51 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDependente" id="D1C5DFD9-4595-1048-57BB-8DA578D9B476">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:41:59 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEmpregado" id="764C4A3F-B6B1-7A1B-AB11-28E296154B84">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:42:15 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeDependente" id="A83300BC-DA5D-6F29-466B-A137779C2FBA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:44:04 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="24C356DC-AF05-148E-2727-0D09A9DADE87">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:44:18 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="6647BA5F-2E0B-E06D-BD39-F5DD50BAB3B9">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:44:33 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="5436D359-714C-6D2C-5E23-ACCB7F28F540">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:44:47 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEmpregado1" id="CF57015A-669D-F96E-EE20-8AD390C0E0FC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:45:02 UTC</createdTime>
+<generatorID>A925E981-8C38-CD05-6BE7-B9551AD50686</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<referedAttribute>459FD5E0-2B0C-422D-8EA3-206516BD9F11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79E501C6-9C7C-0C29-303D-FF7473EE479D" name="Dependentes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 19:42:08 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<engineerTo>
+<item key="ABB9E3C4-8499-6288-0FEF-481436009C39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1C5DFD9-4595-1048-57BB-8DA578D9B476</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

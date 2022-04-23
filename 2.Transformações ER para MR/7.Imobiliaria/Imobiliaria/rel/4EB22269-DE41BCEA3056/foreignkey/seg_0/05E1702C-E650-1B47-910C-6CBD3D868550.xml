@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05E1702C-E650-1B47-910C-6CBD3D868550" containerWithKeyObject="860C4F65-0A59-FF77-89FD-26326702F1D8" localFKIndex="75BA16EC-6CEA-5DAE-BC47-F71DE4807228" name="Inquilinos_Imoveis_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:34:40 UTC</createdTime>
+<generatorID>1AC88830-1B9B-703A-E612-F1FFAB9AA094</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<referredTableLongName>Imoveis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5788D4C-D06D-3B78-3F32-04FC04FE7564</referredTableID>
+<keyObject>89A41A73-3BD1-33AE-641E-192DC99F8724</keyObject>
+<referredKeyID>89A41A73-3BD1-33AE-641E-192DC99F8724</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdImovel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

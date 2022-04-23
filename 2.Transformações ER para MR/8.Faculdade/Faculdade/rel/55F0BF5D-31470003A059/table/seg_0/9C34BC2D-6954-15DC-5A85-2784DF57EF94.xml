@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C34BC2D-6954-15DC-5A85-2784DF57EF94" name="Cursos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>9AB33DB2-AC51-DF34-2BC3-EFFB3EC29AAD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCurso" id="E8C73843-425F-E6DA-E473-AF4DA453651D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>6D83B311-7736-88C7-AD30-7A8E5B7C5729</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula_IdMatricula" id="E9743B93-6F1F-B3D8-A4B4-36AA408254B8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>BB2CB501-8A6C-DE4E-41A2-3C7293EAE204</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7961BB42-5E3A-9ACA-4244-00DFC34892DC" referredColumn="9B92AE9B-B0C4-5880-82C8-D762D2110B9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C18960A1-C4AA-711B-E847-FE7496C07F79" name="Cursos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>7EA3926D-0481-53E9-E79E-ED8E343B78D4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C73843-425F-E6DA-E473-AF4DA453651D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C27E11C6-41C0-49B6-B6B5-0840D978E1F0" name="Cursos__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2D3A2BFC-761A-3AF1-A7D0-AFB558A07652</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E9743B93-6F1F-B3D8-A4B4-36AA408254B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="212A32C7-D180-44BC-F1FA-FB08F9E7C7E8" name="Cursos_Matricula_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>2D3A2BFC-761A-3AF1-A7D0-AFB558A07652</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9743B93-6F1F-B3D8-A4B4-36AA408254B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

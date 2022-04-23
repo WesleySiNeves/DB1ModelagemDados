@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5465BB04-4306-0543-EDAA-1C86195AF47A" name="Proprietarios">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:33:44 UTC</createdTime>
+<generatorID>D67F648E-6B4D-D8A5-3EC6-7E6D40B770CB</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProprietario" id="28A13AF5-38B1-A782-46C5-FA5419E3BE8B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:33:44 UTC</createdTime>
+<generatorID>A241D446-CCBA-0F7D-967A-FDC0487521A6</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C349CA1F-E47D-39D8-9B39-16C3772DD9E0" name="Proprietarios_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:33:44 UTC</createdTime>
+<generatorID>8D5E88B9-704B-6219-0989-4A71EE77120E</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28A13AF5-38B1-A782-46C5-FA5419E3BE8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

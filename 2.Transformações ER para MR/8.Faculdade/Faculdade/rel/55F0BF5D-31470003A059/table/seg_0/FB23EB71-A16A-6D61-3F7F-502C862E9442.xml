@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB23EB71-A16A-6D61-3F7F-502C862E9442" name="Disciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>35CBF330-EF7D-E60E-57CE-928B84CB7EB8</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDisciplina" id="079EE8FE-A390-72A3-6844-8B0F0FDA3CA1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>9BA46AD1-C4BF-5E62-A05D-09ABAC5C4817</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cursos_IdCurso" id="F5E47279-7458-3B9F-8FD9-36BC2B9F4CD5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>9199B40A-B365-5A42-541E-DA7B2E0AB038</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EEE8754-49F7-54A3-C72E-FFF5925696F5" referredColumn="E8C73843-425F-E6DA-E473-AF4DA453651D"/>
+</associations>
+</Column>
+<Column name="Notas_IdNota" id="B5CAEBFB-AAEF-CC34-1C3F-45CB5B4577B8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>C69742F9-6267-300C-8D3B-D2F4C5B11088</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F8A2FDF-FCD7-262F-14D0-C94A29075348" referredColumn="668539C4-EB81-DF02-5D43-3AF250E0F045"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84BA1503-D9A4-4B3E-E503-A3923998A0EF" name="Disciplinas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>3F135974-655D-CBCB-78DE-4347B91962CB</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="079EE8FE-A390-72A3-6844-8B0F0FDA3CA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E5B276B-A280-B7CB-68DB-87DFBA09BFFF" name="Disciplinas__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3187717D-5C4A-3555-020A-6C96856DE63D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5CAEBFB-AAEF-CC34-1C3F-45CB5B4577B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94FE0C00-0956-0A4D-C8A3-37E97A995710" name="Disciplinas_Cursos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>CA5368E5-15F8-1822-7E93-9B0DC513DE7F</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E47279-7458-3B9F-8FD9-36BC2B9F4CD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF6D80B5-5D40-68BA-E950-936556837F14" name="Disciplinas_Notas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:14:22 UTC</createdTime>
+<generatorID>3187717D-5C4A-3555-020A-6C96856DE63D</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5CAEBFB-AAEF-CC34-1C3F-45CB5B4577B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

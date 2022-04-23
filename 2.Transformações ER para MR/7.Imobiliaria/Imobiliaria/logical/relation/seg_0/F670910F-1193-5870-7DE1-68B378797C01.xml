@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Corretor_Atende_Inquilinos" directorySegmentName="seg_0" id="F670910F-1193-5870-7DE1-68B378797C01">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:31:41 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="true"/>
+</engineerTo>
+<sourcePk>B8B33612-DC05-DE26-E13E-E58D4AA98194</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D892FB86-5E04-77EF-952A-C6CA6FD20753</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BFF9C37-616D-FFCE-3F17-C590737C0F6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
