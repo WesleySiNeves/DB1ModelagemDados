@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Professores_Turmas" directorySegmentName="seg_0" id="8AAD8FBF-A7F6-FCAB-F390-1956A6B1CF8D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:06:58 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<sourcePk>00AD5D21-D478-8C5D-5105-C292632A6D99</sourcePk>
+<targetPk>FDD0514D-023D-CE6B-0B03-A960C29EE55F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F4C38B85-081D-182F-1380-E55EC016D4EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74E789E7-B6E3-D11B-A989-E259FC9BDC98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

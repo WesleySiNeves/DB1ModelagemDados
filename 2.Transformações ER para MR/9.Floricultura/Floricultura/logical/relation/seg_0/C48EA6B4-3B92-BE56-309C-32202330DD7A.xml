@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Clientes_Compram_Produtos" directorySegmentName="seg_0" id="C48EA6B4-3B92-BE56-309C-32202330DD7A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:24:04 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E9E02B08-F568-F157-A766-6527FEBB1635</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC89D3BA-F95E-9AF9-8902-3351BEAB3F7D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Quantidade" id="D7A1B0F8-769C-8E99-7534-078D0AC2D781">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:24:35 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</attribute>
+<attribute name="DataVenda" id="957D05B5-25B9-F371-06EE-20E051655CBE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:24:48 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="ValorVenda" id="751B5451-A1D4-6C27-3195-792F4609B00E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:24:53 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -12,5 +12,67 @@
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
-<notation>0</notation>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="188F8192-8D12-3C30-3470-B0F1FE01AD87" otype="Note" vid="C74E4A42-6158-014C-30F3-D3F24D45EE4B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="67" y="35" width="790" height="66"/>
+<comment>10) Uma escola tem várias turmas. Uma turma tem vários professores, sendo que um professor pode ministrar aulas em mais de uma turma. Uma turma tem sempre aulas na mesma sala, mas uma sala pode estar associada a várias turmas (com horários diferentes). 
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="60371E4D-ECA6-B939-3115-A91D2B972973" otype="Entity" vid="B04C3156-AA85-A5CA-88AB-53AD712009F1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="71" y="147" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="74E789E7-B6E3-D11B-A989-E259FC9BDC98" otype="Entity" vid="4D7E725F-AAB6-DE4F-6026-5244299FC4FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="686" y="228" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A86B0E5D-611D-5E4B-0B6B-8A596D4FDF4E" otype="Entity" vid="8CFE80AB-A719-37EC-28BF-4A6467618A67">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="43" y="338" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F4C38B85-081D-182F-1380-E55EC016D4EF" otype="Entity" vid="B7F43285-B2F9-6B11-6133-E3AFE35B11D2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="398" y="185" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3DA74332-BC7F-EE7E-B324-BB04EE5B341D" otype="Relation" vid_source="B04C3156-AA85-A5CA-88AB-53AD712009F1" vid_target="8CFE80AB-A719-37EC-28BF-4A6467618A67">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="142" y="257"/>
+<point x="142" y="338"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8AAD8FBF-A7F6-FCAB-F390-1956A6B1CF8D" otype="Relation" vid_source="B7F43285-B2F9-6B11-6133-E3AFE35B11D2" vid_target="4D7E725F-AAB6-DE4F-6026-5244299FC4FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="568" y="261"/>
+<point x="686" y="261"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8CA5F00A-B2CE-9302-8637-EFE77257E9D7" otype="Relation" vid_source="B04C3156-AA85-A5CA-88AB-53AD712009F1" vid_target="B7F43285-B2F9-6B11-6133-E3AFE35B11D2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="241" y="221"/>
+<point x="398" y="221"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E61FA91E-1177-5A65-8F13-2E9B8B17EA7C" otype="Relation" vid_source="8CFE80AB-A719-37EC-28BF-4A6467618A67" vid_target="B7F43285-B2F9-6B11-6133-E3AFE35B11D2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="213" y="356"/>
+<point x="398" y="276"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>

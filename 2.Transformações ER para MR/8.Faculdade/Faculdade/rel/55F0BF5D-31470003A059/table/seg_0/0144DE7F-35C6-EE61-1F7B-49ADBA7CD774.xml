@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0144DE7F-35C6-EE61-1F7B-49ADBA7CD774" name="Alunos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:16:10 UTC</createdTime>
+<generatorID>7B81F7C5-16FA-48B3-E1D5-DC550D4F77DB</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAluno" id="A4901AF6-EE22-1CF7-E613-6639503CD6DB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:16:10 UTC</createdTime>
+<generatorID>B109A973-CF7B-06EF-4A09-18C48129E7CC</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8783012-7567-B460-DECC-8E7ADA9F3333" name="Alunos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:16:10 UTC</createdTime>
+<generatorID>C6700437-D12C-36E3-B5A9-4959DD8C411C</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4901AF6-EE22-1CF7-E613-6639503CD6DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

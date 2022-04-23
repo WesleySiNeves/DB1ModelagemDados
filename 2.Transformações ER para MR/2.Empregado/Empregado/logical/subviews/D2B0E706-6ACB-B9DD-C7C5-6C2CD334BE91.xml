@@ -8,7 +8,7 @@
 <showLegend>false</showLegend>
 <showLabels>false</showLabels>
 <showRelAttributes>false</showRelAttributes>
-<gridEnabled>false</gridEnabled>
+<gridEnabled>true</gridEnabled>
 <showGrid>false</showGrid>
 <diagramColor>-16737895</diagramColor>
 <display>false</display>
@@ -16,11 +16,11 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AD8B355E-E1C7-26AD-5C9F-D463F2D8A511" otype="Entity" vid="8665AD4F-9553-15A3-FBBC-B4A868742BAB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="382" y="113" width="284" height="238"/>
+<bounds x="382" y="113" width="135" height="96"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="ADE7304B-9D54-3C0D-E0FD-8299476AE354" otype="Entity" vid="83A326A7-D7A6-C0F8-6B34-3993D08BF2BA">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="115" y="97" width="170" height="110"/>
+<bounds x="115" y="97" width="121" height="40"/>
 </OView>
 </objectViews>
 <connectors>
@@ -29,8 +29,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="285" y="160"/>
-<point x="382" y="160"/>
+<point x="236" y="125"/>
+<point x="382" y="125"/>
 </points>
 </Connector>
 </connectors>

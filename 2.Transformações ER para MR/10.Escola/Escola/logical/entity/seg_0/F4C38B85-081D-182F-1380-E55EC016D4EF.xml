@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4C38B85-081D-182F-1380-E55EC016D4EF" name="Turmas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:03:38 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTurma" id="FB285FD2-9576-7601-D275-E4B138A7106B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:04:15 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEscola" id="10CBDE46-FC63-A3C8-D1F3-D4A54FCBB3A1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:05:53 UTC</createdTime>
+<generatorID>8CA5F00A-B2CE-9302-8637-EFE77257E9D7</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<referedAttribute>CC3D4B8F-7191-6B1C-82B1-8EE253BACE81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00AD5D21-D478-8C5D-5105-C292632A6D99" name="Turmas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:04:28 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB285FD2-9576-7601-D275-E4B138A7106B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

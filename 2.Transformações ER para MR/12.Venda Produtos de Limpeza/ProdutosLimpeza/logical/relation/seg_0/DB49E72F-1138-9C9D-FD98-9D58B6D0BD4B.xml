@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Categorias_Possuem_Produtos" directorySegmentName="seg_0" id="DB49E72F-1138-9C9D-FD98-9D58B6D0BD4B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 11:57:59 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<sourcePk>E2792009-E897-DA7B-19E6-D1E0F39AED4F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F75D6E50-E2A7-567C-FF71-CCC97A892FBA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78123195-2AFD-BCEB-6809-540625941A91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -12,5 +12,67 @@
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
-<notation>0</notation>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0BFF9C37-616D-FFCE-3F17-C590737C0F6D" otype="Entity" vid="1E1F5B70-FE12-B410-1414-2DABCCE9029B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="574" y="285" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5C34F0B3-09EF-9BFC-59FE-B135893EA8F0" otype="Entity" vid="8B1B3081-99BB-65F4-C102-1EE8EE96BB30">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="571" y="70" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D67F648E-6B4D-D8A5-3EC6-7E6D40B770CB" otype="Entity" vid="E2A7E9F7-421C-8B76-E188-3BF61EABD988">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="150" y="76" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D892FB86-5E04-77EF-952A-C6CA6FD20753" otype="Entity" vid="9D87812C-13E6-0EBE-67E8-505CE54BDFA1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="129" y="290" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F10A8B60-2819-A19E-DE9F-238235ED63CF" otype="Note" vid="ED53C2EC-3D13-6CE9-1293-646516076D87">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="107" y="422" width="648" height="138"/>
+<comment>7)Um escritório de imobiliária está automatizando o processo interno , dando maior agilidade em suas demandas, sendo assim foi passado para as equipe de TI os seguintes requisitos.
+O proprietário pode possuir ou mais imóveis , este faz  contato com o corretor que por sua vez atende os inquilinos , os inquilinos alugam os imóveis dos proprietários.Tendo somente essas informações .Crie o Modelo Entidade Relacionamento e o MR  para as regras citadas.</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1AC88830-1B9B-703A-E612-F1FFAB9AA094" otype="Relation" vid_source="1E1F5B70-FE12-B410-1414-2DABCCE9029B" vid_target="8B1B3081-99BB-65F4-C102-1EE8EE96BB30">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="657" y="285"/>
+<point x="657" y="180"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1FE7BB59-51CE-D3BA-8366-B9C976B7288D" otype="Relation" vid_source="E2A7E9F7-421C-8B76-E188-3BF61EABD988" vid_target="9D87812C-13E6-0EBE-67E8-505CE54BDFA1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="224" y="186"/>
+<point x="224" y="290"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="BB0B0F02-D1EF-5FC8-2A7A-B53F88ABD5F1" otype="Relation" vid_source="9D87812C-13E6-0EBE-67E8-505CE54BDFA1" vid_target="1E1F5B70-FE12-B410-1414-2DABCCE9029B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="299" y="357"/>
+<point x="574" y="357"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D044467A-6AC5-4C95-33C7-5BA52DC48665" otype="Relation" vid_source="E2A7E9F7-421C-8B76-E188-3BF61EABD988" vid_target="8B1B3081-99BB-65F4-C102-1EE8EE96BB30">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="320" y="128"/>
+<point x="571" y="128"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>
