@@ -25,8 +25,11 @@
 <generatorID>F6C5AFF4-F7B9-2F53-169E-8CB4AD9AB4FD</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sexo" id="2D5F39FE-63CF-B588-273D-EDCA2CC34BF9">
@@ -35,8 +38,11 @@
 <generatorID>8CCD0FF5-445A-10D3-896F-C53064924099</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DataNascimento" id="E61BA35E-4742-1C07-7798-B0059BA65DB7">
@@ -45,7 +51,9 @@
 <generatorID>2551F7C7-A82C-B516-7095-CB350CCC4C48</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -55,7 +63,9 @@
 <generatorID>9FB2B0D8-C4F2-ABC6-AEFA-6F29BD954F1E</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

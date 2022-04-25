@@ -45,7 +45,7 @@
 <lineWidth>1</lineWidth>
 <centerLabel class="oracle.dbtools.crest.model.design.Label">
 <site>1</site>
-<labelBounds x="-235" y="-46" width="157" height="30"/>
+<labelBounds x="-313" y="-61" width="157" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </centerLabel>

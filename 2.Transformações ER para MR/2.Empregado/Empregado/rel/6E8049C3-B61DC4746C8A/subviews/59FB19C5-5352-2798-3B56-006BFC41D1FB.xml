@@ -5,12 +5,14 @@
 <createdTime>2022-04-22 14:19:04 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
-<showLegend>false</showLegend>
+<showLegend>true</showLegend>
 <showLabels>false</showLabels>
 <showRelAttributes>false</showRelAttributes>
 <gridEnabled>false</gridEnabled>
 <showGrid>false</showGrid>
 <diagramColor>-16737895</diagramColor>
+<legendPosX>979</legendPosX>
+<legendPosY>9</legendPosY>
 <display>false</display>
 <notation>0</notation>
 <showComments>true</showComments>
@@ -23,6 +25,10 @@
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="4A47F8DF-4365-A7CF-D7E3-752DF763A029" otype="Table" vid="41D294BC-1CDC-89CE-B7A8-0B54E7B456D5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="470" y="94" width="284" height="238"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVLegend" oid="68E3C780-92A4-21D5-ED1D-CCC8A785F830" otype="Legend" vid="F020FE53-4F06-4082-9F2E-05A552876817">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="979" y="9" width="257" height="135"/>
 </OView>
 </objectViews>
 <connectors>
