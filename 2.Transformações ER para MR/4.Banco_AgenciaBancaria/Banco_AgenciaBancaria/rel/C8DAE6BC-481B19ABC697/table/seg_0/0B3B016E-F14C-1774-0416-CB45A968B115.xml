@@ -22,7 +22,6 @@
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-20 20:57:20 UTC</createdTime>
 <ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

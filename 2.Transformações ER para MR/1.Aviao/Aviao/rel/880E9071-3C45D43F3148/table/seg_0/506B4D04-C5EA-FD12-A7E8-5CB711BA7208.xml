@@ -36,11 +36,10 @@
 <createdTime>2022-04-19 19:32:40 UTC</createdTime>
 <generatorID>265ED93B-C675-B308-770C-0EE6E2BDAD93</generatorID>
 <ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Cidade" id="6898CD6C-A198-57C7-932B-B2649A082781">
@@ -48,11 +47,10 @@
 <createdTime>2022-04-19 19:32:40 UTC</createdTime>
 <generatorID>4217E8D8-42CE-7390-96B3-C1439D1C4B3A</generatorID>
 <ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Estado" id="CE671CBA-4807-A936-65DD-725F01EB2C48">
@@ -63,9 +61,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

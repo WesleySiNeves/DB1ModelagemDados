@@ -29,17 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Telefone" id="A6144B35-95E1-8CF5-D7DA-F851D09C82EF">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-20 20:46:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[Esse Atributo é MultiValorado]]></commentInRDBMS>
-<generatorID>64F1E7DA-B577-B959-1424-92D8A38B1AF9</generatorID>
-<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Rua" id="3C0DC510-7729-7340-E97C-047DE94BBC6B">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-20 20:46:22 UTC</createdTime>

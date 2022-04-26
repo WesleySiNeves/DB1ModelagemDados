@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="C9FB5472-7840-157F-524C-27CBA0451903" name="Vw_GetAgenciaBancaria">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:13:45 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    agenciabancaria.numero,
+    agenciabancaria.numeroagencia,
+    agenciabancaria.rua,
+    agenciabancaria.bairro,
+    agenciabancaria.cep,
+    telefones.telefone
+FROM
+    agenciabancaria
+    INNER JOIN telefones ON agenciabancaria.idagenciabancaria = telefones.idagenciabancaria]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="numero" id="82EF6ED0-9DD5-6F45-B038-187364B978DC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:25:15 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 BYTE)</dataType>
+<headerAlias>numero</headerAlias>
+<reference>false</reference>
+<referencedColumn>380F17BD-EF5F-78C5-DA75-182E3D0155F1</referencedColumn>
+<table>F23AA258-130F-2140-C231-9E980BBC6C6E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="numeroagencia" id="FCC8CF20-8B31-29D4-6299-B154741BDEB4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:25:15 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>numeroagencia</headerAlias>
+<reference>false</reference>
+<referencedColumn>7DC5DDC5-D3E2-3774-20B5-999F71D1E7C9</referencedColumn>
+<table>F23AA258-130F-2140-C231-9E980BBC6C6E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rua" id="9E726A1D-8413-6711-95E2-1138CBCBBC70">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:25:15 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 BYTE)</dataType>
+<headerAlias>rua</headerAlias>
+<reference>false</reference>
+<referencedColumn>3C0DC510-7729-7340-E97C-047DE94BBC6B</referencedColumn>
+<table>F23AA258-130F-2140-C231-9E980BBC6C6E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="bairro" id="C32DB5F7-70FA-069F-765F-3FF98EE2FA77">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:25:15 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 BYTE)</dataType>
+<headerAlias>bairro</headerAlias>
+<reference>false</reference>
+<referencedColumn>C111F814-3041-834C-270E-7081E2729DDB</referencedColumn>
+<table>F23AA258-130F-2140-C231-9E980BBC6C6E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="cep" id="B707C39E-4B64-A966-594E-3282B33ACD3E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:25:15 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<headerAlias>cep</headerAlias>
+<reference>false</reference>
+<referencedColumn>0A98B2EB-2BC1-71E7-A26A-D28E1B375B4E</referencedColumn>
+<table>F23AA258-130F-2140-C231-9E980BBC6C6E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="telefone" id="8AAF62FB-5B87-96B2-F7E1-E143A74C1241">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-26 17:25:15 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10 CHAR)</dataType>
+<headerAlias>telefone</headerAlias>
+<reference>false</reference>
+<referencedColumn>664AD00D-CFC5-E214-0800-81032501A561</referencedColumn>
+<table>0B3B016E-F14C-1774-0416-CB45A968B115</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F23AA258-130F-2140-C231-9E980BBC6C6E">
+<container>true</container>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B3B016E-F14C-1774-0416-CB45A968B115">
+<container>true</container>
+<tableName>Telefones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="380F17BD-EF5F-78C5-DA75-182E3D0155F1">
+<columnName>Numero</columnName>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7DC5DDC5-D3E2-3774-20B5-999F71D1E7C9">
+<columnName>NumeroAgencia</columnName>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3C0DC510-7729-7340-E97C-047DE94BBC6B">
+<columnName>Rua</columnName>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C111F814-3041-834C-270E-7081E2729DDB">
+<columnName>Bairro</columnName>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0A98B2EB-2BC1-71E7-A26A-D28E1B375B4E">
+<columnName>CEP</columnName>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="664AD00D-CFC5-E214-0800-81032501A561">
+<columnName>Telefone</columnName>
+<tableName>Telefones</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E3C60D15-37C2-5942-FD36-38D95249D60D">
+<columnName>IdAgenciaBancaria</columnName>
+<tableName>AgenciaBancaria</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C69229EF-28B5-89B2-2161-9CEC82A7FC13">
+<columnName>IdAgenciaBancaria</columnName>
+<tableName>Telefones</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
