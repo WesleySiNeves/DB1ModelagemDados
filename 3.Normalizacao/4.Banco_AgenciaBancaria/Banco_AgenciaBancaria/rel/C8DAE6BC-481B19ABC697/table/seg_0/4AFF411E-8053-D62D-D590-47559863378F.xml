@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AFF411E-8053-D62D-D590-47559863378F" name="Cliente">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:25:47 UTC</createdTime>
+<generatorID>BE548F88-739B-E00B-A061-0D2E664A20FA</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="098D649F-586F-CA2B-E565-68B01683423B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:25:47 UTC</createdTime>
+<generatorID>728570F6-2B02-D5A6-A444-390852068A0F</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="51BFD53C-56CD-6484-64EE-5DD8B50506FF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:25:47 UTC</createdTime>
+<generatorID>F8C5ACED-3197-FEBE-B96A-DA37E1AE4E87</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="C05835EE-C42D-30D2-5F54-BBCE3E02CF20">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:25:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse Atributo é Multivalorado]]></commentInRDBMS>
+<generatorID>C781604F-ED22-37F6-55E0-F8D9BE98C70E</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="5CFFF1E1-DFB5-640D-84A4-AC48353EBE3A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:35:03 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="25A04E24-F07E-9A58-4D9B-AABBB385D874">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:35:03 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="99E62CFF-7CE3-F8D5-6CA1-20AA9BC3F467">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:35:03 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="87B7868C-1837-AA8E-4BFC-D4BC5AA8DA5D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:35:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9EDBD46-0C7E-294C-1AEA-FA1ADAD97D70" name="Cliente_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:25:47 UTC</createdTime>
+<generatorID>5729ABCE-4648-8DA2-0792-59A8F92B2C49</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098D649F-586F-CA2B-E565-68B01683423B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

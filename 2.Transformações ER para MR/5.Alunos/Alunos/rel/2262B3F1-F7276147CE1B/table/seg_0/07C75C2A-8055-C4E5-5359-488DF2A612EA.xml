@@ -34,6 +34,24 @@
 <colAssociation fkAssociation="BBDF05D5-F031-843B-B10B-54C67B6DF327" referredColumn="1EC8780F-90F9-AB61-C617-AC8E47C6412F"/>
 </associations>
 </Column>
+<Column name="Valor" id="21796E16-0948-10AB-34D4-906FE2C46E56">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:46:56 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="06DD0FFC-B1EF-0CCC-A5D8-10AE9CA6B5B2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:46:56 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5239C5EC-4DD5-A7BC-AA78-215C97509615" name="Notas_PK">

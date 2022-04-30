@@ -37,8 +37,33 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor" id="8B2395D5-1B44-ECED-A502-F316C74ECA89">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:44:37 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="B81B75AB-8FB4-1432-8EFF-68095D50B102">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:45:23 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

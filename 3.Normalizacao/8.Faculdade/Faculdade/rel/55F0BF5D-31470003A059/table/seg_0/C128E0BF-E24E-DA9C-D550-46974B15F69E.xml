@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C128E0BF-E24E-DA9C-D550-46974B15F69E" name="Disciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>35CBF330-EF7D-E60E-57CE-928B84CB7EB8</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDisciplina" id="C3B7D181-CD93-8500-EB3A-B57E589209DD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>9BA46AD1-C4BF-5E62-A05D-09ABAC5C4817</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCurso" id="596EC4B1-D043-2F67-9BE7-6D9015F980DD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>9199B40A-B365-5A42-541E-DA7B2E0AB038</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98C657EF-7EBD-FC69-CD4A-19A07A960394" referredColumn="FE9F9C58-CD02-A831-6131-CC61365DB4B4"/>
+</associations>
+</Column>
+<Column name="Nome" id="04D51487-95C6-E117-0419-6A78E9657ECE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:46:11 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBB9A8CF-8187-EBF1-EFF8-F388BC75BE14" name="Disciplinas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>3F135974-655D-CBCB-78DE-4347B91962CB</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B7D181-CD93-8500-EB3A-B57E589209DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E9FDF35-CFDF-9AED-6ED1-5C6BC18CE343" name="Disciplinas_Cursos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>CA5368E5-15F8-1822-7E93-9B0DC513DE7F</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596EC4B1-D043-2F67-9BE7-6D9015F980DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C09F5BF-68A4-0D13-4EA0-F8E3AA316275" name="TelefonesClientes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:36:39 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTelefone" id="99F60212-740C-A3DA-0692-B7AF1D07C1C2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="4A7E1DD7-4531-FFC9-B035-1EA3FF7FB5C3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD" id="3089790B-F39C-28DE-9659-63D19E8FCCC3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="FCD23962-6039-94E2-99EB-CE714EBB56BD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Atualizado" id="C0E04694-E5A3-6C2C-3C42-971987901923">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="68608EDF-21DC-5910-CDF3-D4BC8C0203C7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:48 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="844E0F07-FF97-70BC-AD94-007C4F98F4AF" referredColumn="098D649F-586F-CA2B-E565-68B01683423B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CA68749-C373-A043-3ACE-702DE329EC48" name="TelefonesClientes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:37:13 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99F60212-740C-A3DA-0692-B7AF1D07C1C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57808FE3-825E-78DF-A337-FC7550EC26AA" name="TelefonesClientes_Cliente_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:38:01 UTC</createdTime>
+<generatorID>5729ABCE-4648-8DA2-0792-59A8F92B2C49</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68608EDF-21DC-5910-CDF3-D4BC8C0203C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DF39B9F-253E-982E-598C-1580C8E0AEB3" name="Cidades">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:05:40 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCidade" id="34305D55-0CBB-6B19-8E69-5326E304E7FF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:05:55 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02D24120-649E-B02F-B346-24FC622E87E2" referredColumn="8DD70D47-F149-144E-11EE-6F6E7CEAA79F"/>
+</associations>
+</Column>
+<Column name="NomeCidade" id="4DB4ACE5-D675-0E15-C8A4-248BE60A13C4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:06:01 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdEstado" id="C9862141-1801-091F-CC6B-1EDF67854246">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:12:03 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A66C409C-509C-A6C1-EE27-B0154802B46E" referredColumn="12308488-7D90-DB52-C0A5-05D44AB8D0E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E8FBA2F-5DB4-2436-DE44-0806E5CBF01A" name="Cidades_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:05:55 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34305D55-0CBB-6B19-8E69-5326E304E7FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED3B76E5-F871-F5B5-2F2F-80F656B153B9" name="Cidades_Aeroporto_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:06:28 UTC</createdTime>
+<generatorID>88376EFB-017A-1A22-3DA8-419BE941C077</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34305D55-0CBB-6B19-8E69-5326E304E7FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A021FA49-E715-D12E-C48F-3C8E530B6414" name="Cidades_Estado_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:13:50 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9862141-1801-091F-CC6B-1EDF67854246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
