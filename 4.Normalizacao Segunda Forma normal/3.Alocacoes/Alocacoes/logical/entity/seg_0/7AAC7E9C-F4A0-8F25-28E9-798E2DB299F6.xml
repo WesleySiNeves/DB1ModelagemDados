@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AAC7E9C-F4A0-8F25-28E9-798E2DB299F6" name="Alocacoes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:13:58 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NumEmp" id="1EEC8FFC-0E51-BCF3-098E-D510527ACD59">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:14:10 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Ag" id="7D368AB2-357B-C73F-5DCE-A453D0263FF7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:14:33 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ag_End" id="1AD68D5B-2448-D809-6771-7A88455C1AB9">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:15:02 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeEmp" id="000AC93A-7EF0-EAB5-6731-8BEFD153231B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:15:10 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HorasSem" id="A8388C03-DB65-983E-0B4F-C3E5B05C46DB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:15:25 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="010272D3-EB32-05C4-80C4-30E710ACC4D6" name="Alocacoes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:14:30 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EEC8FFC-0E51-BCF3-098E-D510527ACD59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

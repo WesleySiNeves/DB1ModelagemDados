@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Alocacoes" id="FDA83D59-61E6-7840-373E-7813445ADE69" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:12:11 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FDA83D59-61E6-7840-373E-7813445ADE69</designId>
+</OSDM_Design>
