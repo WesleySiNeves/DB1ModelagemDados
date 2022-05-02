@@ -8,9 +8,34 @@
 <showLegend>false</showLegend>
 <showLabels>false</showLabels>
 <showRelAttributes>false</showRelAttributes>
-<gridEnabled>false</gridEnabled>
+<gridEnabled>true</gridEnabled>
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
-<notation>1</notation>
+<notation>0</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="35893223-9881-A136-C87C-29966A559F2B" otype="Entity" vid="F78D0842-7B58-57C5-6BB0-785EFCCE4E8A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="300" y="70" width="303" height="102"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="826ABF5B-3B2C-4D01-1C9D-0BD6E3322CD9" otype="Entity" vid="DC5DBA2A-0C58-0813-67BE-2F09CE43B44B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="390" y="230" width="260" height="102"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FD574111-BA19-760A-04F0-4AE697CA14FA" otype="Entity" vid="6681ADC3-C302-2901-32D3-FC1EF4F4459C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="30" y="10" width="211" height="229"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0035B447-DEB4-A35D-F320-41A17C0EB685" otype="Relation" vid_source="F78D0842-7B58-57C5-6BB0-785EFCCE4E8A" vid_target="DC5DBA2A-0C58-0813-67BE-2F09CE43B44B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="526" y="172"/>
+<point x="526" y="230"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>

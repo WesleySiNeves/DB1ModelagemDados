@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDE74C4E-56B0-BA41-8041-FB34273FDB2F" name="ItemCompra">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:33:08 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdOrdemCompra" id="FC142DFA-7D57-7BE1-3FD0-DCD27662F0E1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:33:14 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProduto" id="0B8A5ED3-D836-051F-191E-439971A58424">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:33:22 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DescricaoProduto" id="FA705040-F3C9-7901-3BE1-8D041FEE7E2C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:33:31 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuantidadeProduto" id="33374CAE-FC1F-0E12-A4F6-73FAE10B0660">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:34:05 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrecoProduto" id="18C4884E-26E8-B134-ED12-F406B561F193">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:34:14 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CidadeProduto" id="2EC74B29-48E3-8BF2-E841-44CFC123B854">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:34:19 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9A59025-CEBD-8E62-B443-AE5146CF0E30" name="ItemCompra PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:33:47 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B8A5ED3-D836-051F-191E-439971A58424</attributeRef>
+<attributeRef>FC142DFA-7D57-7BE1-3FD0-DCD27662F0E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

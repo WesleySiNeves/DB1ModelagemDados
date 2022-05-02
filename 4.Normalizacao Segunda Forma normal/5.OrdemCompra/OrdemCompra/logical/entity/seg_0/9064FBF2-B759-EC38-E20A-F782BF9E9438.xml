@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9064FBF2-B759-EC38-E20A-F782BF9E9438" name="OrdemCompra">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:31:11 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdOrdemCompra" id="575C0F68-3FAC-94FC-9D1C-62F083BC7EA1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:04 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="E6680120-4839-AC16-F4A4-0737434091C3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:11 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeCliente" id="E9F01A6C-7760-9082-62FA-01FE6FA2C6E2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:15 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EnderecoCliente" id="99843B09-85C1-369D-BB52-778B3EBA336F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:22 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelefoneCliente" id="38854CBC-2691-A913-E2A5-E396DFDA2CCF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:28 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalCompra" id="9A11343F-9E87-ACD3-B6AC-F23369B8A293">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:33 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalImposto" id="15426289-7E85-4DC9-269E-812D6BB74E01">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:39 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ValorTotalCompra" id="1BE41187-5B16-6FD2-5CF7-1FD44AA15FF0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:32:47 UTC</createdTime>
+<ownerDesignName>OrdemCompra</ownerDesignName>
+<engineerTo>
+<item key="47CAFEEB-ECFB-02FD-7FBD-87AF8D098D23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

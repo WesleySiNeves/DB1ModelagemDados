@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Empregados_Locados_Agencia" directorySegmentName="seg_0" id="E19C117B-2C88-CEB9-E94E-521B8A9A043B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:37:01 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<sourcePk>4899EC98-DECB-FD34-52AD-2A2B83C5735A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>000F3D8E-51DD-C9D5-20BB-3B2907B88CCE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8170F5BA-F2D3-D9D7-9DF5-67CF547B1300</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

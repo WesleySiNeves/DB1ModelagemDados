@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86B6755E-AA24-8756-E576-6373B9BB7C02" name="tblPecas_Normalizado">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>35893223-9881-A136-C87C-29966A559F2B</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Peca" id="505EAC62-8F26-3951-E08E-0877AD7F1808">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>52AB304F-657F-CA4E-DB18-7827A91A7A12</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Fornecedor" id="16854F5A-A149-3A4D-4F4A-38964C7EE439">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>F563E5EE-8144-3A59-59B1-ACFF68D78181</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quant_Estoque" id="331D067A-561A-B862-478C-027C8487105E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>BFCCAA9F-8968-097A-A285-B646306A826C</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quant_Caixas" id="DB791539-9739-F375-105D-5EFAC49E020B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>1152C981-206D-F5E5-0D08-99EE0DD8E4DE</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6F89906-B1BE-1B5C-17FA-B21CE3C815A2" name="tblPecas_Normalizado_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>29AF6CAF-80AA-92AD-B9FC-D5EE3B34489C</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="505EAC62-8F26-3951-E08E-0877AD7F1808"/>
+<colUsage columnID="16854F5A-A149-3A4D-4F4A-38964C7EE439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

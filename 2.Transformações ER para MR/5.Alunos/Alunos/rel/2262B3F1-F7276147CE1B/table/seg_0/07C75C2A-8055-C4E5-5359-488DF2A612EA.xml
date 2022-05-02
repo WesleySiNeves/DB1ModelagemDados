@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Aluno_IdAluno" id="F727FE68-1908-A77F-85EF-5B2ACC24E351">
+<Column name="IdAluno" id="F727FE68-1908-A77F-85EF-5B2ACC24E351">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-22 16:57:23 UTC</createdTime>
 <generatorID>D280BB34-8A99-7EE6-0241-012FDCF278BD</generatorID>

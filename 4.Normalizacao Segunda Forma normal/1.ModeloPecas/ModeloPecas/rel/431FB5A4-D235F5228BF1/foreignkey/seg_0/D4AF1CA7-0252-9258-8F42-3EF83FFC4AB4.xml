@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4AF1CA7-0252-9258-8F42-3EF83FFC4AB4" containerWithKeyObject="3498E943-FDD8-0737-2298-48C38F22521B" localFKIndex="D3883D5F-F521-18E8-B7B4-C3B79DDAE269" name="Fornecedores_tblPecas_Normalizado_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>0035B447-DEB4-A35D-F320-41A17C0EB685</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<referredTableLongName>tblPecas_Normalizado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86B6755E-AA24-8756-E576-6373B9BB7C02</referredTableID>
+<keyObject>D6F89906-B1BE-1B5C-17FA-B21CE3C815A2</keyObject>
+<referredKeyID>D6F89906-B1BE-1B5C-17FA-B21CE3C815A2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cod_Peca,Cod_Fornecedor</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

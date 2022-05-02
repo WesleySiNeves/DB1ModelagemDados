@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E78E68D-446F-7998-8014-E615BCA7F57B" name="tbl_Pecas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>FD574111-BA19-760A-04F0-4AE697CA14FA</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Peca" id="0572DCAB-744D-58A2-AD3F-8221E951360A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>7AF31173-45A2-2FD6-C14F-D698DFCA4BD8</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Fornecedor" id="EDEC4038-7FBC-EB6A-B110-35DB47765768">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>B855112B-7F85-9B70-9030-F2710A41E4CA</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Local_Fornecedor" id="9E27362E-669B-AC43-814D-FA6DC347E75C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>DFC92D0C-32D2-D4B1-7BF1-DBC041AAC823</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantidadeEstoque" id="1E9F196B-1CB9-F125-390E-20CDBACFE6DD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>31EBF713-0D22-E899-1B95-929A0A8A9510</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelefoneFornecedor" id="3714D720-7A22-CB90-CCDD-B2937018453E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>E53611CB-F415-CD28-C67A-3C5EFF90198C</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quant_Caixas" id="F85E8CE8-9574-01ED-7AD0-6AABC0C877D9">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>8FE4988F-A780-0292-7953-1F998DA4266B</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="698A9433-6647-3513-65FE-96A71468F844" name="tbl_Pecas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:53:24 UTC</createdTime>
+<generatorID>17229288-C0F7-313C-8FED-69FD042680C7</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDEC4038-7FBC-EB6A-B110-35DB47765768"/>
+<colUsage columnID="0572DCAB-744D-58A2-AD3F-8221E951360A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

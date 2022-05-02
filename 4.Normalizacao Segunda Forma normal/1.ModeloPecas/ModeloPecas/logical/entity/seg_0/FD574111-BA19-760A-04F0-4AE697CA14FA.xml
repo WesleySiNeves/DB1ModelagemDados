@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD574111-BA19-760A-04F0-4AE697CA14FA" name="tbl_Pecas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:51:13 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Peca" id="7AF31173-45A2-2FD6-C14F-D698DFCA4BD8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:51:35 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Fornecedor" id="B855112B-7F85-9B70-9030-F2710A41E4CA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:51:41 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Local_Fornecedor" id="DFC92D0C-32D2-D4B1-7BF1-DBC041AAC823">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:52:18 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuantidadeEstoque" id="31EBF713-0D22-E899-1B95-929A0A8A9510">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:52:34 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelefoneFornecedor" id="E53611CB-F415-CD28-C67A-3C5EFF90198C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:52:43 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quant_Caixas" id="8FE4988F-A780-0292-7953-1F998DA4266B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:52:55 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17229288-C0F7-313C-8FED-69FD042680C7" name="tbl_Pecas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:52:05 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B855112B-7F85-9B70-9030-F2710A41E4CA</attributeRef>
+<attributeRef>7AF31173-45A2-2FD6-C14F-D698DFCA4BD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

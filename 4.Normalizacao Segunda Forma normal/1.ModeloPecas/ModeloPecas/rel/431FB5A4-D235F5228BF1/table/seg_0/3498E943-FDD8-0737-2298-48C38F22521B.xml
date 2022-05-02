@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3498E943-FDD8-0737-2298-48C38F22521B" name="Fornecedores">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>826ABF5B-3B2C-4D01-1C9D-0BD6E3322CD9</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Local_Fornecedor" id="4A9C1DD6-2F8B-6CED-034C-7A2063E2F594">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>F14B0798-24D7-544F-5EB2-10A50962D7FD</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tel_Fornecedor" id="2B5F3983-C691-B76C-E7BC-7C3A9E2D7FE5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>9C30FAF5-B4B9-8C2D-FA89-E1633DFF1D33</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cod_Peca" id="909BECC1-5BE3-9B53-4711-EED1DBAC6B4D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>EA7974E8-92FE-A9C1-1EEB-733CA064E8FF</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4AF1CA7-0252-9258-8F42-3EF83FFC4AB4" referredColumn="505EAC62-8F26-3951-E08E-0877AD7F1808"/>
+</associations>
+</Column>
+<Column name="Cod_Fornecedor" id="08FC750A-A8E5-D817-A571-37F1E72C302C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>8497E5E4-0556-BD7C-16D8-08F15264EB8D</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4AF1CA7-0252-9258-8F42-3EF83FFC4AB4" referredColumn="16854F5A-A149-3A4D-4F4A-38964C7EE439"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BCA473A-CC09-B00C-A46F-09FD3637F67D" name="Fornecedores_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>A8150490-2E01-1401-FF5E-4B44ABBE6E9E</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="909BECC1-5BE3-9B53-4711-EED1DBAC6B4D"/>
+<colUsage columnID="08FC750A-A8E5-D817-A571-37F1E72C302C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3883D5F-F521-18E8-B7B4-C3B79DDAE269" name="Fornecedores_tblPecas_Normalizado_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:24:25 UTC</createdTime>
+<generatorID>0035B447-DEB4-A35D-F320-41A17C0EB685</generatorID>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="909BECC1-5BE3-9B53-4711-EED1DBAC6B4D"/>
+<colUsage columnID="08FC750A-A8E5-D817-A571-37F1E72C302C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

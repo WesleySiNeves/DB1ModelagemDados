@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B26B76A6-E464-410D-F021-A4A4B5D16AC0" name="FuncionarioDepartamentovNormalizados">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:48:11 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Func_CPF" id="A87ECF5B-5A48-B1C5-6E0D-FCF01EE085EA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:48:11 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt_Nascimento" id="FE93D13C-14A9-6A0E-DDE3-D625073FC1C1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:48:11 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Departamento" id="35286782-F453-07ED-58CE-1E342936418C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:49:32 UTC</createdTime>
+<generatorID>1A520250-0673-95F4-769E-7E55D9CB287C</generatorID>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AEC5F4E7-6F31-55B4-8A9D-45CF09564DD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7FF6A09-3F81-A710-18FE-6172555AA25D" name="FuncionarioDepartamentovNormalizados PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:48:11 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A87ECF5B-5A48-B1C5-6E0D-FCF01EE085EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8170F5BA-F2D3-D9D7-9DF5-67CF547B1300" name="AlocacoesNormalizados">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:30:41 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HorasSem" id="65BB5F63-3BF6-4860-E260-54DF80943C21">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:35:16 UTC</createdTime>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Ag" id="CC3E78DD-D22A-BA60-87BC-8FA2BC23B341">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:35:47 UTC</createdTime>
+<generatorID>F7D09ABF-0A72-B362-2D38-308A04EE680C</generatorID>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>80A2A31F-1A42-DEC7-6C12-1EFD48B1BD46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumEmp" id="DF97CFB4-BC50-016F-428E-68E9720044D3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:37:01 UTC</createdTime>
+<generatorID>E19C117B-2C88-CEB9-E94E-521B8A9A043B</generatorID>
+<ownerDesignName>Alocacoes</ownerDesignName>
+<engineerTo>
+<item key="938C09EF-90C3-077F-BE96-DE7190671FB2" value="true"/>
+</engineerTo>
+<referedAttribute>3FE9ADA0-2697-B826-412B-A1B555E0ABB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

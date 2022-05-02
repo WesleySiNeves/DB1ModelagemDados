@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF83D330-A972-4609-FB6A-E9E28CA64EA2" name="AutoresLivros">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<ordsAlias>fk_livros_autores</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdLivro" id="53E335CC-0B97-C494-FB40-EDFAC5763977">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F8578C5-E5EC-1EB4-0E96-5DC039F0373A" referredColumn="FD36A29B-F9A2-0956-C1A0-40EF55CFD4BB"/>
+</associations>
+</Column>
+<Column name="IdAutor" id="F7BD07E8-4810-77BF-1345-51465305BB32">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44D188CC-7234-3BF5-A72C-6DC8C5B9D38F" referredColumn="944A860C-3A2E-4615-E95B-3D26C178F121"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E373B89-EC55-31EC-1BCF-3E231C7A5ED1" name="Relation_1_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E335CC-0B97-C494-FB40-EDFAC5763977"/>
+<colUsage columnID="F7BD07E8-4810-77BF-1345-51465305BB32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67E03F2E-A3A6-A2C4-A797-0F25A81722F9" name="Relation_1_Livros_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>352D37CE-18C7-377D-2BF9-2F68D316AD71</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E335CC-0B97-C494-FB40-EDFAC5763977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B2814DC-F008-EDFC-8913-E59A2E497C88" name="Relation_1_Autores_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>352D37CE-18C7-377D-2BF9-2F68D316AD71</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BD07E8-4810-77BF-1345-51465305BB32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

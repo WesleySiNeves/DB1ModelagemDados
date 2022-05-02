@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35893223-9881-A136-C87C-29966A559F2B" name="tblPecas_Normalizado">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:00:24 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Peca" id="52AB304F-657F-CA4E-DB18-7827A91A7A12">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:01:19 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Fornecedor" id="F563E5EE-8144-3A59-59B1-ACFF68D78181">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:02:29 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quant_Estoque" id="BFCCAA9F-8968-097A-A285-B646306A826C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:03:00 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quant_Caixas" id="1152C981-206D-F5E5-0D08-99EE0DD8E4DE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:17:50 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29AF6CAF-80AA-92AD-B9FC-D5EE3B34489C" name="tblPecas_Normalizado PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:01:24 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<engineerTo>
+<item key="431FB5A4-762E-FCC0-803F-D235F5228BF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52AB304F-657F-CA4E-DB18-7827A91A7A12</attributeRef>
+<attributeRef>F563E5EE-8144-3A59-59B1-ACFF68D78181</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

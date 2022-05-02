@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03215780-0C12-27C4-D5E9-3BF042D3C031" name="FuncionariosProjetosNormalizado">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:58:05 UTC</createdTime>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<engineerTo>
+<item key="DEB1ECCF-0414-0C6E-F010-7D53B935330E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Func_CPF" id="E42B47CC-6078-9F8F-2156-56A5FF30B07B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:01:20 UTC</createdTime>
+<generatorID>549408DF-BF9A-EDD0-7C4E-DBF5D6B0DD64</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<engineerTo>
+<item key="DEB1ECCF-0414-0C6E-F010-7D53B935330E" value="true"/>
+</engineerTo>
+<referedAttribute>AEAFF18A-A6D8-88D6-9910-7941A8D142AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Projeto" id="1912C76E-E9F1-9E49-63E7-1A8007B82566">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:02:10 UTC</createdTime>
+<generatorID>C143E100-9B58-4AB5-7F66-C32BB3F1903D</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<engineerTo>
+<item key="DEB1ECCF-0414-0C6E-F010-7D53B935330E" value="true"/>
+</engineerTo>
+<referedAttribute>183C6198-F37E-DD37-6051-6EA4EF8B5A4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HS_Trabalho" id="A8BE8408-B462-5A48-1DB1-017150450A9D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:58:52 UTC</createdTime>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<engineerTo>
+<item key="DEB1ECCF-0414-0C6E-F010-7D53B935330E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABCB0809-CEB4-0EBB-6F7E-5B8B21A69DB5" name="FuncionariosProjetosNormalizado PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 15:08:34 UTC</createdTime>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<engineerTo>
+<item key="DEB1ECCF-0414-0C6E-F010-7D53B935330E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E42B47CC-6078-9F8F-2156-56A5FF30B07B</attributeRef>
+<attributeRef>1912C76E-E9F1-9E49-63E7-1A8007B82566</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
