@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloPecas" id="B5138E0E-D5FD-3619-78F6-F4AED6809F7D" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:49:13 UTC</createdTime>
+<ownerDesignName>ModeloPecas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B5138E0E-D5FD-3619-78F6-F4AED6809F7D</designId>
+</OSDM_Design>
