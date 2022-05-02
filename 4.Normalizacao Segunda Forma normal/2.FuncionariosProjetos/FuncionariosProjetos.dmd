@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FuncionariosProjetos" id="A542EAFB-6576-DCA7-73CA-6D5AA890EC50" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 14:51:22 UTC</createdTime>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A542EAFB-6576-DCA7-73CA-6D5AA890EC50</designId>
+</OSDM_Design>
