@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Peca" id="83CB3997-D40C-E0EE-7F9A-5D1C52429EC1" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:56:09 UTC</createdTime>
+<ownerDesignName>Peca</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>83CB3997-D40C-E0EE-7F9A-5D1C52429EC1</designId>
+</OSDM_Design>
