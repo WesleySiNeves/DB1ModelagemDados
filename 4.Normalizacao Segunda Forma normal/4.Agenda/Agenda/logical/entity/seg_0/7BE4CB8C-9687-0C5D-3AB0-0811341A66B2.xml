@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BE4CB8C-9687-0C5D-3AB0-0811341A66B2" name="Agenda">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:15:39 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdDentista" id="47EB74E2-13B1-A238-6ED9-9CBCBFD8F5F7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:15:49 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPaciente" id="AF62D0BE-1D8F-4075-9687-014F2A8C73FF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:05 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomeDentista" id="D4ED96D7-AE98-5CB1-0958-2DBA511BE451">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:19 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NomePaciente" id="49F2211C-CB27-5683-3709-1726ECADC608">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:26 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TelefonePaciente" id="9C7B1FDD-10D8-BF37-8191-88C9C3301FDE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:32 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EnderecoPaciente" id="2C164BD8-CD71-68F2-9CE1-621C7C7F799C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:44 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailPaciente" id="D7EEB7FA-4718-C07E-8F32-80342861E7AB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:53 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocalAtendimento" id="5E7A1A8E-2AB6-C8EA-0C09-6EDDCE25CBAC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:17:02 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataAtendimento" id="E2A46F7B-E25E-CD84-107E-6DA20E6016FD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:17:33 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B946087A-BD2C-D42F-0FA8-FB28174A6674" name="Agenda PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:16:00 UTC</createdTime>
+<ownerDesignName>Agenda</ownerDesignName>
+<engineerTo>
+<item key="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47EB74E2-13B1-A238-6ED9-9CBCBFD8F5F7</attributeRef>
+<attributeRef>AF62D0BE-1D8F-4075-9687-014F2A8C73FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
