@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78123195-2AFD-BCEB-6809-540625941A91" name="Produtos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:44:49 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdProduto" id="3A4C8298-43F2-C7A1-6988-096404302C16">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:44:54 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo" id="174948EE-74EB-A01C-6FCA-6311D82DDE81">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:47:17 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="85125375-A905-66B5-E614-B8D0078B14FD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:47:27 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preco" id="B2BB3CF7-4983-11B6-1403-956E0B8CAE2F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 11:55:08 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCategoria" id="DEE1281E-D0E3-0A55-7D65-3B30B89C8E34">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 11:57:59 UTC</createdTime>
+<generatorID>DB49E72F-1138-9C9D-FD98-9D58B6D0BD4B</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<referedAttribute>BE21D639-4D3F-8B11-C654-5820813F8D77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3293CEF-22E2-AD7B-9187-306067A35937" name="Produtos PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:45:18 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A4C8298-43F2-C7A1-6988-096404302C16</attributeRef>
+<attributeRef>DEE1281E-D0E3-0A55-7D65-3B30B89C8E34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

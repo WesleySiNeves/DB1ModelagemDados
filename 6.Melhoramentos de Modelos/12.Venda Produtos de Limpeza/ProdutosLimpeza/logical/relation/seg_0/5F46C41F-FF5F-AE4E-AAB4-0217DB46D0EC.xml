@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ItensPedido" directorySegmentName="seg_0" id="5F46C41F-FF5F-AE4E-AAB4-0217DB46D0EC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:08:25 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CBEB66DE-D610-9E96-6029-3D98C5F4B2AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78123195-2AFD-BCEB-6809-540625941A91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Quantidade" id="E921252C-7A44-A5A4-E39D-BD9152A41A43">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:09:09 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Desconto" id="52F1D3C3-6688-1BD3-0316-0539486097E3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:08:57 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="ValorFinal" id="D8B03E26-2546-CE2A-EEBA-7ADBC4B0D5E7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:09:36 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<engineerTo>
+<item key="A3EAD9CB-C506-9A9D-546B-FD886FB9C46A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

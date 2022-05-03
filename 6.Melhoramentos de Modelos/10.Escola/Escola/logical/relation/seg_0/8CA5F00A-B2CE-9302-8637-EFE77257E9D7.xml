@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Escolas_Possuem_Turmas" directorySegmentName="seg_0" id="8CA5F00A-B2CE-9302-8637-EFE77257E9D7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:05:53 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<sourcePk>71455B1B-5EDB-5F8B-E916-A866D6939167</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60371E4D-ECA6-B939-3115-A91D2B972973</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4C38B85-081D-182F-1380-E55EC016D4EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

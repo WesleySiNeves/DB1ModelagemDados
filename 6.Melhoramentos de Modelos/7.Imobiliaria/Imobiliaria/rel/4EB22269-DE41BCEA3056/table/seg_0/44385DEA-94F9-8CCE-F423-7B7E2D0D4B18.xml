@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44385DEA-94F9-8CCE-F423-7B7E2D0D4B18" name="Corretores_Atendem_Inqulinos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Corretores_IdCorretor" id="1C097551-F3BF-D787-00B6-A8857272AB3E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5E350B9-9494-26A8-1625-F963F2B552A9" referredColumn="244444F6-D580-6FB2-0E1A-3061967244C6"/>
+</associations>
+</Column>
+<Column name="Inquilinos_Corretores_IdCorretor" id="09B20BAC-CA73-F976-C63E-51F96A0136FE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataAtendimento" id="DD590614-5C22-68C1-E7EE-28AC46C3AEA2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<generatorID>86839212-C797-5883-A12A-E162FD07DCD7</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Inquilinos_IdInquilino" id="E9563657-91DB-C492-1388-570320C34A40">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:58:06 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBF4598A-A13A-71E8-A065-F056103CFF18" referredColumn="F7A5AD24-0A24-9E65-0B3C-893CB6CB69F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC09F5A0-DB94-F212-A3C7-7846DAD64421" name="Corretores_Atendem_Inqulinos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C097551-F3BF-D787-00B6-A8857272AB3E"/>
+<colUsage columnID="09B20BAC-CA73-F976-C63E-51F96A0136FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79AAE549-8FE3-3751-F98F-43FDE34F52B9" name="Corretores_Atendem_Inqulinos_Corretores_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<generatorID>BB0B0F02-D1EF-5FC8-2A7A-B53F88ABD5F1</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C097551-F3BF-D787-00B6-A8857272AB3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA0174B7-C22A-03E4-717D-3A5ACAC653A7" name="Corretores_Atendem_Inqulinos_Inquilinos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:22 UTC</createdTime>
+<generatorID>BB0B0F02-D1EF-5FC8-2A7A-B53F88ABD5F1</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9563657-91DB-C492-1388-570320C34A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="152403DB-59DE-4F45-0955-3067077873D4" name="Escola">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:14:26 UTC</createdTime>
+<generatorID>60371E4D-ECA6-B939-3115-A91D2B972973</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEscola" id="B9475B5B-48F0-F5AE-B42C-1160E8A3F25A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:14:26 UTC</createdTime>
+<generatorID>CC3D4B8F-7191-6B1C-82B1-8EE253BACE81</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="566C73F6-7378-5117-A1D6-983354A3DE54" name="Escola_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:14:26 UTC</createdTime>
+<generatorID>71455B1B-5EDB-5F8B-E916-A866D6939167</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9475B5B-48F0-F5AE-B42C-1160E8A3F25A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="153C257D-3624-D20A-6C8F-F21D79F81F79" name="Autores">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>1A15973A-3BBA-CE61-7EAB-6BE2C62C924B</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAutor" id="944A860C-3A2E-4615-E95B-3D26C178F121">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>22F959EE-D8BE-C944-CFEA-E2179912D036</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="C53A6CB7-79E7-AAAC-A703-AD418F31703C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>5484C9AF-6BCC-5540-BEB9-42D8638D32C1</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacionalidade" id="2C50DD55-9A19-2063-3A4B-9CCCC1AAFF7B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>25B990AC-7662-8587-829C-3F9864E48EF6</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2EC0C5E-39D1-5DAC-A89E-40838E8BC0DF" name="Autores_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>2E537DE0-CE2A-24A9-7EB2-AB57576D7FD7</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="944A860C-3A2E-4615-E95B-3D26C178F121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

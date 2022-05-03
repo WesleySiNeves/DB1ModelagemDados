@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57CB2DB0-F9A0-CF5B-A77E-E07AB30A6547" name="Telefones">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:27:51 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTelefone" id="6D56078E-9C71-E9DD-B8ED-E21B55F91248">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:28:08 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="2F2239D1-1472-E02B-E7D2-D9532DCC307B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:28:19 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD" id="3F055ADE-7137-4436-CEF2-218D0FD799AC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:28:43 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="AF75F73D-DDA6-0015-615C-C8392B01B99F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:29:00 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Atualizado" id="1394BC04-601A-16AF-DDBA-7BFB435F4940">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:31:23 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroAgencia" id="C7FB6292-BAEA-7CC1-7BE6-C9A10863A2CF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:31:50 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="470919F6-1CBA-2133-0A88-69578822A0B9" referredColumn="1882E76F-4E74-B306-F726-606CFFC41D42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B33C743A-85E3-1A55-0982-F41C289D370C" name="Telefones_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:28:08 UTC</createdTime>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D56078E-9C71-E9DD-B8ED-E21B55F91248"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8255ABC7-AB5F-1B7E-11EB-D9A68225FF38" name="Telefones_AgenciaBancaria_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:33:06 UTC</createdTime>
+<generatorID>BC15C46E-88BB-8032-2785-102278CC7465</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7FB6292-BAEA-7CC1-7BE6-C9A10863A2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Corretores_Atendem_Inqulinos" directorySegmentName="seg_0" id="BB0B0F02-D1EF-5FC8-2A7A-B53F88ABD5F1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:54:36 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D892FB86-5E04-77EF-952A-C6CA6FD20753</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BFF9C37-616D-FFCE-3F17-C590737C0F6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DataAtendimento" id="86839212-C797-5883-A12A-E162FD07DCD7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:55:07 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

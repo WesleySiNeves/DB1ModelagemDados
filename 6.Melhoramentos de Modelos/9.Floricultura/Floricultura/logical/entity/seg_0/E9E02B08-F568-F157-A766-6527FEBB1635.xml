@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9E02B08-F568-F157-A766-6527FEBB1635" name="Clientes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:20:11 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCliente" id="2738A6B4-859F-F080-E731-EA119E5A7AE1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:20:19 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RG" id="8D0DDA7D-A57A-8FC2-8725-01095C98B367">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:20:42 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="699ECBA8-D99C-7E2F-BEFF-E31636002BC4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:20:50 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="5A7386FF-D564-26A5-21CA-D703C398151A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:21:04 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco" id="7F794EC1-5BCC-DE85-D54A-15E0BF20DDDC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:21:12 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9041FCB-98BD-A1C5-B29E-049079A0C8BC" name="Clientes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:20:30 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2738A6B4-859F-F080-E731-EA119E5A7AE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

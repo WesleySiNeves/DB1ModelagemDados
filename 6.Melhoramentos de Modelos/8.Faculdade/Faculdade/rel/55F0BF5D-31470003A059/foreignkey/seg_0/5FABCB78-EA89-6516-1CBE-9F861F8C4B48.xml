@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FABCB78-EA89-6516-1CBE-9F861F8C4B48" containerWithKeyObject="69DA513C-54EE-189E-25CB-8ED8C3D054EC" localFKIndex="BC960557-8EBF-07E3-8E06-79D960567D9B" name="Notas_Disciplinas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>3187717D-5C4A-3555-020A-6C96856DE63D</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<referredTableLongName>Disciplinas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C128E0BF-E24E-DA9C-D550-46974B15F69E</referredTableID>
+<keyObject>BBB9A8CF-8187-EBF1-EFF8-F388BC75BE14</keyObject>
+<referredKeyID>BBB9A8CF-8187-EBF1-EFF8-F388BC75BE14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdDisciplina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

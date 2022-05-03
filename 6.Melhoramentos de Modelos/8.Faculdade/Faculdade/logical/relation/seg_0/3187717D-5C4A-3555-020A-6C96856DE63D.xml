@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Nota_Aluno_Disciplina" directorySegmentName="seg_0" id="3187717D-5C4A-3555-020A-6C96856DE63D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 18:12:45 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<sourcePk>3F135974-655D-CBCB-78DE-4347B91962CB</sourcePk>
+<targetPk>F5214D76-76D8-A9F7-CE8B-F556A8E035C6</targetPk>
+<dominantRole>35CBF330-EF7D-E60E-57CE-928B84CB7EB8</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35CBF330-EF7D-E60E-57CE-928B84CB7EB8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>103D93E5-7AD3-6C84-BBE5-92D2A028E378</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

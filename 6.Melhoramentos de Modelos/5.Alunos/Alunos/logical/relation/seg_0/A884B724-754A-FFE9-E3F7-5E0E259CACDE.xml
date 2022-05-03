@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Alunos_Tem_Notas" directorySegmentName="seg_0" id="A884B724-754A-FFE9-E3F7-5E0E259CACDE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:45:53 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<sourcePk>803BAA28-874E-BC5F-2DC2-B15BE8E4E2A7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EA0B8FF-27BC-8C5B-0C32-B877116FC43B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E908AC2A-EF76-351F-B55A-C210D74D0DE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

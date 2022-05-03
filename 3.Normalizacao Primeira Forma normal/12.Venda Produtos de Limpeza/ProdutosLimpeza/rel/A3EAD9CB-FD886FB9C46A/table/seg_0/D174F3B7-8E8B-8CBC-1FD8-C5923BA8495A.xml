@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D174F3B7-8E8B-8CBC-1FD8-C5923BA8495A" name="Categorias">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>F75D6E50-E2A7-567C-FF71-CCC97A892FBA</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCategoria" id="5347CB74-2037-D0BC-0EC2-CD126211EF71">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>BE21D639-4D3F-8B11-C654-5820813F8D77</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="AA05A1EF-7447-B480-5979-87EFEB6DF421">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>A8A8A8FA-E060-A366-89FF-5377C092F12A</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC9C137D-A79F-9223-2DFD-0C0278844008" name="Categorias_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>E2792009-E897-DA7B-19E6-D1E0F39AED4F</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5347CB74-2037-D0BC-0EC2-CD126211EF71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

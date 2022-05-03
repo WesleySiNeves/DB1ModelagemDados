@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21C87813-3E34-072D-4AE1-2DD7E80B1269" name="Disciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>B615D7C0-7281-E1CC-AAD6-DE147026279C</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDisciplina" id="3848567C-1C3B-FD15-0382-F22BCF04512A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>5191C0DA-B51B-31AE-C07E-81F2DC0E0820</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="C2B98C8B-DC2D-8129-54EA-B558C424041A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>025927D7-CCE6-F212-E603-1C3C10F9D07E</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ementa" id="B04FE28D-DA15-3C6F-54B0-B3A8E8C0CB41">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>DA1C4C90-15DD-04AF-5916-17D95CB205B7</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCurso" id="4E9FA32C-0C03-E9B4-A9C2-382542FBE8DA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>77B9B735-7E38-E62C-087B-CB8B2A6A2581</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39F842C5-1195-A70D-E258-C29A0DABC169" referredColumn="3634068E-62C2-F10D-CC13-9BF1AD0A3EC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE3FB612-FEBE-38B8-9D59-ACABAF3B87EC" name="Disciplinas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>69AF2553-7FDB-3B03-211E-C944F6E5E6AA</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3848567C-1C3B-FD15-0382-F22BCF04512A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FCB2EEA-49FA-AA36-3201-916585AA9C39" name="FK_Curso_Possue_Disciplinas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>59C967EE-05F3-99E0-E669-8C03AEE5A4FA</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E9FA32C-0C03-E9B4-A9C2-382542FBE8DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

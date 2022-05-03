@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A66C409C-509C-A6C1-EE27-B0154802B46E" containerWithKeyObject="9DF39B9F-253E-982E-598C-1580C8E0AEB3" localFKIndex="A021FA49-E715-D12E-C48F-3C8E530B6414" name="Cidades_Estado_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:13:50 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<referredTableLongName>Estado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35AA0F1A-8C37-DCFF-826E-A1E356AA6259</referredTableID>
+<keyObject>44B49D79-EA00-5953-9E83-7EA430E25D3B</keyObject>
+<referredKeyID>44B49D79-EA00-5953-9E83-7EA430E25D3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdEstado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>12308488-7D90-DB52-C0A5-05D44AB8D0E7</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

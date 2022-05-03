@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="470919F6-1CBA-2133-0A88-69578822A0B9" containerWithKeyObject="57CB2DB0-F9A0-CF5B-A77E-E07AB30A6547" localFKIndex="8255ABC7-AB5F-1B7E-11EB-D9A68225FF38" name="Telefones_AgenciaBancaria_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:33:06 UTC</createdTime>
+<generatorID>BC15C46E-88BB-8032-2785-102278CC7465</generatorID>
+<ownerDesignName>Banco_AgenciaBancaria</ownerDesignName>
+<referredTableLongName>AgenciaBancaria</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2DD2FE58-B867-2B3F-312B-40CD70A261A0</referredTableID>
+<keyObject>80146B68-3022-5B1A-C018-176364058D3B</keyObject>
+<referredKeyID>80146B68-3022-5B1A-C018-176364058D3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NumeroAgencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>1882E76F-4E74-B306-F726-606CFFC41D42</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

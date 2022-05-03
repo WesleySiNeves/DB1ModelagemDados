@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6520684C-EED2-41AE-4076-D9F589EDA9E8" name="Departamentos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:47:11 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod_Departamento" id="AEC5F4E7-6F31-55B4-8A9D-45CF09564DD6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:47:25 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dpt_Nome" id="DE735E4C-021B-4420-1ABA-1C1550F63BAA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:47:40 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Setor" id="2B4CA2AD-D4DB-2AE5-6D57-55BF710F254A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:47:49 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="379CB55F-F77E-F5AD-BE04-420E00879FC7" name="Departamentos PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:47:38 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEC5F4E7-6F31-55B4-8A9D-45CF09564DD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

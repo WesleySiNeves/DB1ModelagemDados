@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Imobiliaria" id="91D8ACE8-9B65-A0C4-EA00-A7BB68A17AB8" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:14:48 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>91D8ACE8-9B65-A0C4-EA00-A7BB68A17AB8</designId>
+</OSDM_Design>

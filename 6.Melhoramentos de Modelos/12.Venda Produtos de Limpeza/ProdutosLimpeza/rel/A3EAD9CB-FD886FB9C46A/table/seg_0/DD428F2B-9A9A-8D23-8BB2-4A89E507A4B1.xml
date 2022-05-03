@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD428F2B-9A9A-8D23-8BB2-4A89E507A4B1" name="Clientes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>706BF49B-0946-63C3-A7F0-C0D4CA8F359F</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCliente" id="F77C133A-3248-4D51-5956-D5A798B89078">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>911715D9-F9DA-EB93-F9BB-9906BD778385</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="1DD8ACEE-BE4C-4593-9D98-1A3A677E6604">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>A8DA63D1-F573-FDE4-1DE0-422E46D41993</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="4E4D6803-9EC9-5E4D-2964-AFAD74A3768B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>A1011A0F-DF1D-A935-CF34-E1E66A8B486F</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="583130F6-3348-7EC9-D23E-47DBE2950033">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>0DDEA06A-7A78-1C0E-4C44-8032FD6756B9</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="354A9ABE-A352-6ACA-6E14-DCA4AE87CA75">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>C947AB02-9595-7E2D-7C30-EC1DE65B58F4</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="D0EDD2BE-2CD0-C6D5-CAEF-EDDCAC77F263">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[ status 
+ 1 = "bom"
+ 2 ="médio"
+ 3 = "ruim"]]></commentInRDBMS>
+<generatorID>639D382E-65AC-6694-81E3-C53C1AAD86CE</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LimiteCredito" id="F0A5BF5B-C1A5-6B17-85B8-3FBA6B3E0082">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>6C4B36B2-A284-7AC0-167B-D6EED6252C98</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77585E8B-67F6-870A-FD41-EC781D1C477E" name="Clientes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>B4BEB7C5-9BD7-3A39-73B3-E36A6E4B61C9</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F77C133A-3248-4D51-5956-D5A798B89078"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C0C06A5-888D-9577-DA7F-7F0A71FE89D4" name="ItensPedido">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pedidos_IdPedido" id="C2AAC027-63EF-9261-4EDB-9080907C2BBA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3876D27-7402-BF67-27A6-F9D3485F9E52" referredColumn="3752E84B-12B8-DCFD-7D13-C6B9B36FB5A4"/>
+</associations>
+</Column>
+<Column name="Produtos_IdProduto" id="3752D40F-A125-AFF2-565C-4DE52C9B39CE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B96D02C-98E9-D4FF-5E05-BA11E0E00B49" referredColumn="F456E5AB-5578-603D-C748-FCB5CFADEA3D"/>
+</associations>
+</Column>
+<Column name="Produtos_Categorias_IdCategoria" id="66BA2CCD-9587-1C45-ED68-D7D41CA9598A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B96D02C-98E9-D4FF-5E05-BA11E0E00B49" referredColumn="ACCDCECC-5EB1-6F76-F408-20DF1BE3B62C"/>
+</associations>
+</Column>
+<Column name="Quantidade" id="DB6B2099-E559-E92C-2C05-309453CEBE6E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>E921252C-7A44-A5A4-E39D-BD9152A41A43</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Desconto" id="59D4C647-B053-6BD0-2999-B541C6E4BADD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>52F1D3C3-6688-1BD3-0316-0539486097E3</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="ValorFinal" id="CB4C702C-EE79-5186-280B-3C33BD2E06F2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>D8B03E26-2546-CE2A-EEBA-7ADBC4B0D5E7</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8020FC38-4671-677C-008E-8CDD84F48450" name="ItensPedido_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2AAC027-63EF-9261-4EDB-9080907C2BBA"/>
+<colUsage columnID="3752D40F-A125-AFF2-565C-4DE52C9B39CE"/>
+<colUsage columnID="66BA2CCD-9587-1C45-ED68-D7D41CA9598A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B28F516-0D7C-3391-4E4E-1AE3563113C4" name="ItensPedido_Pedidos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>5F46C41F-FF5F-AE4E-AAB4-0217DB46D0EC</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2AAC027-63EF-9261-4EDB-9080907C2BBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A6746A4-CB2B-E3F3-25EB-F7CE5B2EC322" name="ItensPedido_Produtos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-23 12:10:05 UTC</createdTime>
+<generatorID>5F46C41F-FF5F-AE4E-AAB4-0217DB46D0EC</generatorID>
+<ownerDesignName>ProdutosLimpeza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3752D40F-A125-AFF2-565C-4DE52C9B39CE"/>
+<colUsage columnID="66BA2CCD-9587-1C45-ED68-D7D41CA9598A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

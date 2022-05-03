@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93281A01-9829-8ACB-8276-BAF7FD42E9F9" name="Proprietarios_Sao_Atendidos_Corretores">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:48:00 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<ordsAlias>proprietarios_sao_atendidos_corretores</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProprietario" id="DA8C1866-565E-E055-DE8E-9DF43ABBB22E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:48:00 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F9D5308-FD82-1CC1-DF4D-CF8B66C421F6" referredColumn="CE529BE2-B62F-4966-43AE-B44D0E232400"/>
+</associations>
+</Column>
+<Column name="IdCorretor" id="EAC61CC6-DE25-3EFE-2436-11C0E12BDDE1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:48:00 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8486C567-159D-5A1E-EF31-7829F81A76B6" referredColumn="244444F6-D580-6FB2-0E1A-3061967244C6"/>
+</associations>
+</Column>
+<Column name="DataAtendimento" id="E36A4971-F8D1-5582-F53C-E1F8653C4395">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:50:21 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FC5B6B5-851C-F0F3-5728-3572E1A46960" name="Proprietarios_Sao_Atendidos_Corretores_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:48:00 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA8C1866-565E-E055-DE8E-9DF43ABBB22E"/>
+<colUsage columnID="EAC61CC6-DE25-3EFE-2436-11C0E12BDDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC116146-E1AC-98FE-CDE0-062EE27C59F3" name="Proprietarios_Sao_Atendidos_Corretores_Proprietarios_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:48:00 UTC</createdTime>
+<generatorID>1FE7BB59-51CE-D3BA-8366-B9C976B7288D</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA8C1866-565E-E055-DE8E-9DF43ABBB22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C2DB8D0-AD5A-AE5A-3758-D0636799A2AF" name="Proprietarios_Sao_Atendidos_Corretores_Corretores_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:48:00 UTC</createdTime>
+<generatorID>1FE7BB59-51CE-D3BA-8366-B9C976B7288D</generatorID>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAC61CC6-DE25-3EFE-2436-11C0E12BDDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

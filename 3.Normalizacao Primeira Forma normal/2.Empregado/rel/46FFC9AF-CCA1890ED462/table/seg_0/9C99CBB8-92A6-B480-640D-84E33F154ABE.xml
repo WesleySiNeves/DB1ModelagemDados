@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C99CBB8-92A6-B480-640D-84E33F154ABE" name="Departamento">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>1932885A-A26A-A6C9-C2D5-405D8B5A5CB3</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDepartamento" id="94E6E0BA-BB9C-7B33-6A8C-A138A0C9B9A7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>7952CEA9-7A8D-B171-E619-A74AE1264139</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="E7616B3D-B96A-D7F8-6CB8-D6898E506411">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>2F20F260-5D29-1019-2962-D215E2865E41</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="452AF94E-EB28-3E36-0526-857DF2035201">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>CB09B079-370F-6F4D-D20D-06193F09F6FD</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empregadov1_Matricula" id="CCDAC755-E49E-7AE2-C331-7CE9BC50CBD0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>21E8C573-FDD3-231C-F3E9-847B0BF8B834</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E770F6B1-AE8E-8D22-48AD-25BBE63B9A47" referredColumn="B10E7AEF-8463-D7FF-9F38-D5F3A94E8E10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97C477EA-A928-1B1A-0E5E-1D4D4834442B" name="Departamento_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>2EC2FDBA-2A39-7765-D666-58F07DC25EE5</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94E6E0BA-BB9C-7B33-6A8C-A138A0C9B9A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67609B2D-3FD9-AA01-3F8C-AD555B0B6DBE" name="Departamento__IDX">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4D0837A7-D4B2-37B4-B946-FA663EB82BC2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CCDAC755-E49E-7AE2-C331-7CE9BC50CBD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E13257D-E194-CB1F-322F-F948414E8421" name="Departamento_Empregadov1_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>4D0837A7-D4B2-37B4-B946-FA663EB82BC2</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCDAC755-E49E-7AE2-C331-7CE9BC50CBD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

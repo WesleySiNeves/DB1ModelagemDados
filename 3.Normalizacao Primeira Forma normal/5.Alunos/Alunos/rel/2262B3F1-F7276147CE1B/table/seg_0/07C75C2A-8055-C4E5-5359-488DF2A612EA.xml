@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07C75C2A-8055-C4E5-5359-488DF2A612EA" name="Notas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>E908AC2A-EF76-351F-B55A-C210D74D0DE4</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdNota" id="AE2B90B8-809C-CD40-6E14-456826092041">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>00B8196E-F501-0AEE-5D2E-B864FDD45339</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aluno_IdAluno" id="F727FE68-1908-A77F-85EF-5B2ACC24E351">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>D280BB34-8A99-7EE6-0241-012FDCF278BD</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBDF05D5-F031-843B-B10B-54C67B6DF327" referredColumn="1EC8780F-90F9-AB61-C617-AC8E47C6412F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5239C5EC-4DD5-A7BC-AA78-215C97509615" name="Notas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>584FB1F1-29C8-1254-5796-8195A94ABDCB</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE2B90B8-809C-CD40-6E14-456826092041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B66096DE-DEC3-5195-AF79-5F11D6C3A4D8" name="FK_Alunos_Tem_Notas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 16:57:23 UTC</createdTime>
+<generatorID>A884B724-754A-FFE9-E3F7-5E0E259CACDE</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F727FE68-1908-A77F-85EF-5B2ACC24E351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

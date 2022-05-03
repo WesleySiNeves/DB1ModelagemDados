@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF1FCC5-CD93-8A89-4FFB-5CBA8BBBB55A" name="Clientes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>E9E02B08-F568-F157-A766-6527FEBB1635</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCliente" id="9BC8F611-A0D8-51A9-8AB6-32E536BEA65D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>2738A6B4-859F-F080-E731-EA119E5A7AE1</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="C217361A-9651-59A7-784A-8861BECF63A3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>8D0DDA7D-A57A-8FC2-8725-01095C98B367</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="4B6DE2F0-C24A-C7BF-5274-702D25AA6282">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>699ECBA8-D99C-7E2F-BEFF-E31636002BC4</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="C44FA283-42D0-B1EE-6D60-9A9B1A71934B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>5A7386FF-D564-26A5-21CA-D703C398151A</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="469ACEAA-21BD-89F0-0512-570ED4B7A178">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>7F794EC1-5BCC-DE85-D54A-15E0BF20DDDC</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38A090A5-68DF-C9B6-1B9F-EEB6F0153E9D" name="Clientes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>F9041FCB-98BD-A1C5-B29E-049079A0C8BC</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BC8F611-A0D8-51A9-8AB6-32E536BEA65D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F5A18D67-A0D6-5A4B-9C37-32350D2CCC68" mainViewID="C629DA1B-E67C-3461-FFF1-DED987F984DD">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-05-02 17:10:05 UTC</createdTime>
-<ownerDesignName>Agenda</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
-</relationalModel>

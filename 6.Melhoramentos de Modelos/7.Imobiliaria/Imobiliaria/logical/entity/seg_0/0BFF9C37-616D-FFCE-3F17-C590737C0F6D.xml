@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BFF9C37-616D-FFCE-3F17-C590737C0F6D" name="Inquilinos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:30:11 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdInquilino" id="C4C13E37-523D-4B88-CB95-ACAD8004D396">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:30:18 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2DE0E72A-B966-1BC5-B8A3-7814F4F0C3F3" name="Inquilinos PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:30:30 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35AA0F1A-8C37-DCFF-826E-A1E356AA6259" name="Estado">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:07:32 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEstado" id="12308488-7D90-DB52-C0A5-05D44AB8D0E7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:07:41 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="3764E8A2-A8F0-14E6-EB6A-2F0FF8AB7A67">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:07:55 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sigla" id="CB71E1CB-3FC7-CD8C-8A8A-9B68C7E2DB07">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:08:04 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44B49D79-EA00-5953-9E83-7EA430E25D3B" name="Estado_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 18:13:45 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12308488-7D90-DB52-C0A5-05D44AB8D0E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

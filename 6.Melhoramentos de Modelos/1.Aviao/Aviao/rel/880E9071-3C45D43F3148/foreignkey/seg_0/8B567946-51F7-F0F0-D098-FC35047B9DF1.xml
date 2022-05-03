@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B567946-51F7-F0F0-D098-FC35047B9DF1" containerWithKeyObject="C01F5F29-9BEC-A984-E694-E52B690CDDFD" localFKIndex="0A14D7B7-30E0-93F2-B144-E7CD1685A9D2" name="FK_TipoAviao_Possue_Empresas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 12:49:18 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<referredTableLongName>TipoAviao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>643FB10C-3F7C-9BD9-552A-F120DAA19653</referredTableID>
+<keyObject>5491A10A-4B7F-3B0E-C784-FD18E6FE9CCE</keyObject>
+<referredKeyID>5491A10A-4B7F-3B0E-C784-FD18E6FE9CCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoAviao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>B2613EE8-F98D-7F6E-4805-B9B745185AA0</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

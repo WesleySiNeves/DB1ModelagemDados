@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="581A63B0-D5FC-D58B-1352-8F44F9ADCA5D" name="Categoria">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>98925654-6E4B-9446-3A97-760F8D63DA6D</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCategoria" id="0CB24F84-AB2C-C91F-FCE0-956C41F3FE90">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>968297B0-9262-6BC3-6C56-CDBF43BC977D</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="2FB81072-1F5A-F18E-0923-ADFB86122E62">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>2499CA59-5E53-5C84-97A6-4E7A1CAABF1D</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="A95D1B54-2B1A-57F4-1460-5FCE604FF497">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>8EB46254-81F4-38F4-E61A-C8A62A4BFCE2</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8B2948F-53F9-136B-E6D9-D63AF507875A" name="Categoria_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:40:10 UTC</createdTime>
+<generatorID>B984E2E2-DFC7-3741-2BD7-55526529AAB5</generatorID>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CB24F84-AB2C-C91F-FCE0-956C41F3FE90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

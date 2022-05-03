@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Departamentos_Possuem_Funcionarios" directorySegmentName="seg_0" id="1A520250-0673-95F4-769E-7E55D9CB287C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 17:49:32 UTC</createdTime>
+<ownerDesignName>FuncionarioDepartamento</ownerDesignName>
+<engineerTo>
+<item key="1CC3372C-6BB1-DCE6-B853-6A0B7F0B131D" value="true"/>
+</engineerTo>
+<sourcePk>379CB55F-F77E-F5AD-BE04-420E00879FC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6520684C-EED2-41AE-4076-D9F589EDA9E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B26B76A6-E464-410D-F021-A4A4B5D16AC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

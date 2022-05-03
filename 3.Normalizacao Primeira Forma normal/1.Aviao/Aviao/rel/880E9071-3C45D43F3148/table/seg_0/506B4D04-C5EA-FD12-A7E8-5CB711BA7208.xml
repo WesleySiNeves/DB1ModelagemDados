@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="506B4D04-C5EA-FD12-A7E8-5CB711BA7208" name="Aeroporto">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>42A83CDE-99DA-A797-5DF6-EBF625A98459</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAeroporto" id="8DD70D47-F149-144E-11EE-6F6E7CEAA79F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-20 12:06:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Coluna PK da tabela]]></commentInRDBMS>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodAereo" id="4EDD4FBA-B59F-3ECD-702B-2006C4ADF1B3">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<comment><![CDATA[Coluna chave alterativa]]></comment>
+<commentInRDBMS><![CDATA[Coluna chave alterativa]]></commentInRDBMS>
+<generatorID>38602FAB-D352-DAF0-D6B0-1CA3D5645326</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="69ECB6C0-9A8A-CC82-59AD-43B4490A5F52">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do Aeroporto]]></commentInRDBMS>
+<generatorID>265ED93B-C675-B308-770C-0EE6E2BDAD93</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCidade" id="6898CD6C-A198-57C7-932B-B2649A082781">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cidade do Aeroporto]]></commentInRDBMS>
+<generatorID>4217E8D8-42CE-7390-96B3-C1439D1C4B3A</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF75FE05-AA84-76A3-FB41-748A7B51C9FD" name="PK_Aeroporto">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 19:32:40 UTC</createdTime>
+<generatorID>88376EFB-017A-1A22-3DA8-419BE941C077</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD70D47-F149-144E-11EE-6F6E7CEAA79F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="355CAACC-5FC3-5A36-431F-C6FDB8453F5E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:31:19 UTC</createdTime>
+<ownerDesignName>Imobiliaria</ownerDesignName>
+<engineerTo>
+<item key="4EB22269-D262-3FB3-A219-DE41BCEA3056" value="true"/>
+</engineerTo>
+<sourcePk>2DE0E72A-B966-1BC5-B8A3-7814F4F0C3F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BFF9C37-616D-FFCE-3F17-C590737C0F6D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C34F0B3-09EF-9BFC-59FE-B135893EA8F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

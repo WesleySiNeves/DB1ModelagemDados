@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E908AC2A-EF76-351F-B55A-C210D74D0DE4" name="Notas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:44:19 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdNota" id="00B8196E-F501-0AEE-5D2E-B864FDD45339">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:44:24 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdAluno" id="D280BB34-8A99-7EE6-0241-012FDCF278BD">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:45:53 UTC</createdTime>
+<generatorID>A884B724-754A-FFE9-E3F7-5E0E259CACDE</generatorID>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D817D2CD-F2CF-DF41-C8B6-A0C5E02366DE</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="584FB1F1-29C8-1254-5796-8195A94ABDCB" name="Notas PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:46:36 UTC</createdTime>
+<ownerDesignName>Alunos</ownerDesignName>
+<engineerTo>
+<item key="2262B3F1-B622-0370-D71E-F7276147CE1B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00B8196E-F501-0AEE-5D2E-B864FDD45339</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

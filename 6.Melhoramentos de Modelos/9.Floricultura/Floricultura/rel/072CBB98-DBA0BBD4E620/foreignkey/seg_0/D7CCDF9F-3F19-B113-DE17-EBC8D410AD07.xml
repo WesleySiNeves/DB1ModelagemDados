@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7CCDF9F-3F19-B113-DE17-EBC8D410AD07" containerWithKeyObject="74EE43E5-0CE4-3130-9E68-AB57D6E42753" localFKIndex="715B3A6E-24C2-05BB-0F96-233E61E2307A" name="Clientes_Compram_Produtos_Clientes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:26:39 UTC</createdTime>
+<generatorID>C48EA6B4-3B92-BE56-309C-32202330DD7A</generatorID>
+<ownerDesignName>Floricultura</ownerDesignName>
+<referredTableLongName>Clientes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CF1FCC5-CD93-8A89-4FFB-5CBA8BBBB55A</referredTableID>
+<keyObject>38A090A5-68DF-C9B6-1B9F-EEB6F0153E9D</keyObject>
+<referredKeyID>38A090A5-68DF-C9B6-1B9F-EEB6F0153E9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdCliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

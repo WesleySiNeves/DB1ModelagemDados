@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Livros_Categorias" directorySegmentName="seg_0" id="4A703A11-3FF8-DC77-3408-66898CC7EB7C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:37:37 UTC</createdTime>
+<ownerDesignName>Biblioteca</ownerDesignName>
+<engineerTo>
+<item key="F35D06C9-582F-C8DD-88CC-F1C6C8EA7D9F" value="true"/>
+</engineerTo>
+<sourcePk>B984E2E2-DFC7-3741-2BD7-55526529AAB5</sourcePk>
+<targetPk>3776D605-99F9-596B-93AF-98218BC4E259</targetPk>
+<dominantRole>98925654-6E4B-9446-3A97-760F8D63DA6D</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98925654-6E4B-9446-3A97-760F8D63DA6D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F873C5EE-A5F8-8F21-04E2-5242498F8592</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
