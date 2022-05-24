@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90DFF26C-37F1-B9E2-D878-07146014656A" name="TipoParentesco">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-24 20:45:30 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTipoParentesco" id="FF60B2A0-E67B-2469-1050-B2E7592234FF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-24 20:46:04 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="982FA6F1-A234-5D8A-FFBA-E60A671F6C23">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-24 20:46:29 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC98AC29-A1B0-2733-5DDB-51A0DECF4829" name="TipoParentesco_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-24 20:46:04 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF60B2A0-E67B-2469-1050-B2E7592234FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

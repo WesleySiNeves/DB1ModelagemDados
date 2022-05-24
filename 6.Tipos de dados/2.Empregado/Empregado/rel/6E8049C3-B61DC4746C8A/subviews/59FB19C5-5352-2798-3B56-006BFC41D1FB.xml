@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="59FB19C5-5352-2798-3B56-006BFC41D1FB">
+<createdBy>Wesley.Neves</createdBy>
+<modifiedBy>Wesley.Neves</modifiedBy>
+<createdTime>2022-04-22 14:19:04 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>true</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-16737895</diagramColor>
+<legendPosX>979</legendPosX>
+<legendPosY>9</legendPosY>
+<display>false</display>
+<notation>0</notation>
+<showComments>true</showComments>
+<showClassificationTypes>true</showClassificationTypes>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="90DFF26C-37F1-B9E2-D878-07146014656A" otype="Table" vid="E8EEFF25-D4B6-C779-84AD-FD6A0D9FF090">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="678" y="384" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="93E5FA58-4CBC-F9F5-62A6-4B4147DFAF76" otype="Table" vid="368C6ED6-8334-9B06-2334-6B71A75F341B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="368" y="40" width="426" height="298"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E915091C-9381-80D5-0886-383C15284CB5" otype="Table" vid="81398B9C-E69D-7018-60CE-E8858A3CFCB2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="40" y="100" width="171" height="188"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0EE75E3B-8448-16B1-70FF-11803DA0DB14" otype="FKIndexAssociation" vid_source="81398B9C-E69D-7018-60CE-E8858A3CFCB2" vid_target="368C6ED6-8334-9B06-2334-6B71A75F341B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="211" y="194"/>
+<point x="368" y="194"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
