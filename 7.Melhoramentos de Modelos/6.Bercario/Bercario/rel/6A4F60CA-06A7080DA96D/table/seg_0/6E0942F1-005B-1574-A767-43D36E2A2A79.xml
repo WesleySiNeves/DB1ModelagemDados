@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E0942F1-005B-1574-A767-43D36E2A2A79" name="MedicosExecutamParto">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<ordsAlias>fk_medicos_executam_parto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bebes_IdBebe" id="CF7E846A-4033-6182-07B2-D8C32BC818FB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFDFD1F3-41C9-87BA-BE86-F5C46BB6097B" referredColumn="FFB23DC2-E2CA-FA83-2A86-3EAF6BA93DAD"/>
+</associations>
+</Column>
+<Column name="Medicos_IdMedico" id="D1B9D212-AEBD-7CCD-439C-2AF0644BC252">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD5A0E9D-5847-4636-6B71-93F00A6B5A58" referredColumn="80057527-6D63-285F-875B-1DEE851FCD0E"/>
+</associations>
+</Column>
+<Column name="DataParto" id="BC807346-6792-B3E1-654E-8FEFE2C4C883">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<generatorID>83A6B634-20DD-37CA-62B8-C6C6BDA115C4</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA6230FF-BAF7-7BBB-4015-5DD69E73CC84" name="FK_Medicos_Executam_Parto_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7E846A-4033-6182-07B2-D8C32BC818FB"/>
+<colUsage columnID="D1B9D212-AEBD-7CCD-439C-2AF0644BC252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF5DD004-4CED-7551-A486-6FCAE64C2BE9" name="FK_Medicos_Executam_Parto_Bebes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<generatorID>454AA744-F465-C855-53DC-4E067B6927AB</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7E846A-4033-6182-07B2-D8C32BC818FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5195C26-E0C5-B414-04DD-D29D7FAA8F40" name="FK_Medicos_Executam_Parto_Medicos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<generatorID>454AA744-F465-C855-53DC-4E067B6927AB</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1B9D212-AEBD-7CCD-439C-2AF0644BC252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

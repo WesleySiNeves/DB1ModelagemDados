@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9ECB0D2-9520-2869-93F3-E0A7964EEE40" containerWithKeyObject="66FE1183-A52E-5BFB-304A-C2C22CF28355" localFKIndex="66239F39-8681-92BE-612D-57B7B9A88FF5" name="FK_Turmas_Salas_Salas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:14:26 UTC</createdTime>
+<generatorID>E61FA91E-1177-5A65-8F13-2E9B8B17EA7C</generatorID>
+<ownerDesignName>Escola</ownerDesignName>
+<referredTableLongName>Salas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDBCFB19-1A5C-3A9B-E5D3-C1DF3C459C7E</referredTableID>
+<keyObject>F913801F-8C22-D2D8-13E5-EF44920639B3</keyObject>
+<referredKeyID>F913801F-8C22-D2D8-13E5-EF44920639B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdSala</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3465B0A9-EDD4-B45F-B6D3-FCF72E3536B2" name="Dependentes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>220251ED-5D38-A08B-D51C-55F8A55501F4</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NomeDependente" id="5F746D16-61B7-F409-96B4-5DE3DD3939C6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>197D1A9E-4301-050F-130F-EC1895E92265</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sexo" id="87FF0A6E-306D-2B18-9996-8489D9214F4F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>B5AA40AB-23C1-F8C1-9404-9BE6F7A4C775</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataNascimento" id="F8C87484-CF42-7BE9-B5A9-D6482641E0FF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>5E2DE23B-660D-FD1E-D6B2-D723BE9DA678</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parentesco" id="E1BBBEFD-C338-6FB8-DE2B-01BD7AE4313B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>5ACEEA9C-84E8-2B2F-AB5F-90D92820268D</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empregadov1_Matricula" id="9C3A1003-7CFB-B485-FF8B-838DB614287A">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>7D36E034-8BCB-5113-BAD7-4BDE3BE0D9AA</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F6CCC22-7AB3-0487-4857-830FB97657EC" referredColumn="B10E7AEF-8463-D7FF-9F38-D5F3A94E8E10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EA59A5D-10D5-1997-C003-C57EF3EA36D7" name="Dependentes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>0AA7E1A3-4AF1-BD5D-BFC8-A9842FA2527D</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1F2AAD22-0A55-575D-9956-D9A87AED752D" name="Dependentes_Empregadov1_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>03321CB7-D130-4184-553C-E5FCC4D47A31</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C3A1003-7CFB-B485-FF8B-838DB614287A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

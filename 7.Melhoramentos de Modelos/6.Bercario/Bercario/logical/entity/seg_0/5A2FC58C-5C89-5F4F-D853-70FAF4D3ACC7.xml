@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A2FC58C-5C89-5F4F-D853-70FAF4D3ACC7" name="Maes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:54:32 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdMae" id="44203A2C-DB63-9DBF-84DB-ACCA699FF088">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:55:38 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="806D3549-3EFE-DB93-7525-117B98CC18FB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:55:44 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco" id="0346B617-AAAA-656C-CB71-2A88E7711A9D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:55:48 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="337A2443-C86F-DA56-8C9B-694EC63EE90F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:55:53 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="32AD5652-EB40-E4A8-3C74-01826BC91E48">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 17:07:42 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1368BCD9-D327-0CF2-A4B9-9CD261170EC0" name="Maes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:55:43 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44203A2C-DB63-9DBF-84DB-ACCA699FF088</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

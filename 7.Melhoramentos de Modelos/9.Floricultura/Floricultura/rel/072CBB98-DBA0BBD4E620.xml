@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="072CBB98-6F80-1326-1F16-DBA0BBD4E620" mainViewID="EEDE01EE-632D-680D-551E-2755A8D16C3D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:18:58 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

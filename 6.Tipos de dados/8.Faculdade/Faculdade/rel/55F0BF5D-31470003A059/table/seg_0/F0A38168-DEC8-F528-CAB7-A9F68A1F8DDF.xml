@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0A38168-DEC8-F528-CAB7-A9F68A1F8DDF" name="Cursos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>9AB33DB2-AC51-DF34-2BC3-EFFB3EC29AAD</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCurso" id="FE9F9C58-CD02-A831-6131-CC61365DB4B4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>6D83B311-7736-88C7-AD30-7A8E5B7C5729</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="5E4222D6-9504-EA2B-B011-E69BF8B774D4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:28:56 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prerequsitos" id="A76772AC-F3D3-0BC7-2FA3-A04C01E40FBB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-05-02 13:28:56 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFB53BA5-3593-3469-451E-4F9BDB070211" name="Cursos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:39:14 UTC</createdTime>
+<generatorID>7EA3926D-0481-53E9-E79E-ED8E343B78D4</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE9F9C58-CD02-A831-6131-CC61365DB4B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

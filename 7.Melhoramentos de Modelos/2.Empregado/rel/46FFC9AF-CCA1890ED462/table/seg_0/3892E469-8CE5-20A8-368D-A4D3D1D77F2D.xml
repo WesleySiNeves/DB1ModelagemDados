@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3892E469-8CE5-20A8-368D-A4D3D1D77F2D" name="Projetos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>6F993A0B-5564-5AF3-9E33-9DAC38154E4B</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numero" id="0CCA1EED-9381-B406-9998-F42D6AED4F1B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>DA372C67-35BF-A584-ED26-1DF3AA3982FA</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="D2F25018-5CD8-E7E1-D3E5-43EE3E7A6BA5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>80CA0320-8FFC-AA75-8EB0-23B403780D29</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Localizacao" id="4C7052D1-2A51-DF98-DF51-E5A9508005EA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>C64F881A-879C-367A-1E41-D6A5CA689C5D</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7E5EC55-9B6F-5911-4FC6-7D5B20AEFB16" name="Projetos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>5611C2E0-56D1-719E-3D94-08B0BB0748FD</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CCA1EED-9381-B406-9998-F42D6AED4F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

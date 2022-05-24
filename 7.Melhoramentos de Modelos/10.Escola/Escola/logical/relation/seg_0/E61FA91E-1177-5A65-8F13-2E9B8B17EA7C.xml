@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Turmas_Salas" directorySegmentName="seg_0" id="E61FA91E-1177-5A65-8F13-2E9B8B17EA7C">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:13:23 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A86B0E5D-611D-5E4B-0B6B-8A596D4FDF4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4C38B85-081D-182F-1380-E55EC016D4EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Horário" id="DA0CA6A7-5A06-2254-4799-53AC3358CBC0">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 23:13:46 UTC</createdTime>
+<ownerDesignName>Escola</ownerDesignName>
+<engineerTo>
+<item key="2E7F6992-30CE-EEAC-7A69-57B70B168899" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

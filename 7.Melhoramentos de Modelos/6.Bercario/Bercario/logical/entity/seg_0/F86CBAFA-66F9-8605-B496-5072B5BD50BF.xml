@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F86CBAFA-66F9-8605-B496-5072B5BD50BF" name="Bebes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:54:46 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdBebe" id="413DC3B6-9A72-E0A7-2C3A-5F3C7E906724">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:56:35 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="D0856572-9B46-964F-3459-CD7D10CD3FCC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:56:44 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="B5CE2FF1-8095-262A-7F47-4C5A314D4AF6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:56:49 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PesoNascimento" id="31C7471B-48DC-ABA4-F4F1-0D2CB3B0F1C4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:56:55 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="0454833C-1508-4720-0E1F-9A39FC07A713">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:57:08 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMae" id="5DBD18F4-A5B1-CFDA-3777-51F9B41DA64F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:08:55 UTC</createdTime>
+<generatorID>744AAB24-AC7E-7993-260A-3BD16FABECC3</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<referedAttribute>44203A2C-DB63-9DBF-84DB-ACCA699FF088</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9EFCC99-F8FD-443C-57B4-86911785A470" name="Bebes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-19 20:56:41 UTC</createdTime>
+<ownerDesignName>Bercario</ownerDesignName>
+<engineerTo>
+<item key="6A4F60CA-884A-6EA8-2C88-06A7080DA96D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>413DC3B6-9A72-E0A7-2C3A-5F3C7E906724</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

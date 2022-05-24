@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1C0BD05-66E3-FD9F-C8B0-626393F85E0F" name="EmpregadosTelefones">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>C0659D90-1901-1366-C896-02D25E191C64</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Telefone" id="B93A7063-4AA2-2CD9-DE6E-69F05CFC7CF9">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>539A4932-4C32-3BB4-B78B-D6BF82F8092D</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empregadov1_Matricula" id="B8A034BC-9954-589B-A0A1-6D7980645129">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>90ECCFBD-5BA3-03B1-5EE6-42A3BC68540A</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C74CD652-3AC9-ADAE-60D8-25F9FA180A36" referredColumn="B10E7AEF-8463-D7FF-9F38-D5F3A94E8E10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C444A74-34A5-EA5E-02F5-233AE3132957" name="EmpregadosTelefones_Empregadov1_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-02 00:14:21 UTC</createdTime>
+<generatorID>9C976F84-3ECC-4467-CD16-E69A7571DBC2</generatorID>
+<ownerDesignName>1.Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8A034BC-9954-589B-A0A1-6D7980645129"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

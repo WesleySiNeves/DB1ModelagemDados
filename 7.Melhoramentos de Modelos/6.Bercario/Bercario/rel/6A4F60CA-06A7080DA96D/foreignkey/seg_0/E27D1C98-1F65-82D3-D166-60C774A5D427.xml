@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E27D1C98-1F65-82D3-D166-60C774A5D427" containerWithKeyObject="3EAF4BA8-1648-7206-9710-BFD2600CAD32" localFKIndex="6EC4364C-B32D-7B1B-E6C4-8D0F1EF121F3" name="Bebes_Maes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-30 19:22:33 UTC</createdTime>
+<generatorID>744AAB24-AC7E-7993-260A-3BD16FABECC3</generatorID>
+<ownerDesignName>Bercario</ownerDesignName>
+<referredTableLongName>Maes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BA1D10B-437A-72FB-B7EE-8C86834073CA</referredTableID>
+<keyObject>9446BBD2-6325-D8B9-90B7-CCF477866CE1</keyObject>
+<referredKeyID>9446BBD2-6325-D8B9-90B7-CCF477866CE1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdMae</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

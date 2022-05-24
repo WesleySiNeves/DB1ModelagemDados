@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC89D3BA-F95E-9AF9-8902-3351BEAB3F7D" name="Produtos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:21:36 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdProduto" id="25176596-497E-FFAA-ABC9-E836664D77CF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:21:43 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="1A48F659-C18E-EEA5-029B-056C88573082">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:21:57 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="D10C41B4-661E-1284-F62A-DA196A895140">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:22:09 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preco" id="41BDFB3A-015A-94BF-1416-C2F2D81B2646">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:22:32 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QuantidadeEmEstoque" id="1A826106-C7F3-41EF-F88F-DAB7FBA1A7F7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:23:02 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79E308D8-A16E-1ECD-30EF-5F4097F9C330" name="Produtos PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-04-22 21:21:49 UTC</createdTime>
+<ownerDesignName>Floricultura</ownerDesignName>
+<engineerTo>
+<item key="072CBB98-6F80-1326-1F16-DBA0BBD4E620" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25176596-497E-FFAA-ABC9-E836664D77CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
