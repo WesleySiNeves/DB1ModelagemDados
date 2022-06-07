@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Salarios" id="0699E1F1-BF63-7008-1350-846E1E9DC6C0" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:23:38 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0699E1F1-BF63-7008-1350-846E1E9DC6C0</designId>
+</OSDM_Design>

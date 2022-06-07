@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="8A1233D2-157F-0DE3-5279-89F220351634" mainViewID="54E2ADC2-56C7-D927-4A69-212FE0B0B145">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:23:38 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

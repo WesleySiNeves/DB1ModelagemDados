@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8277C03C-87F7-F3E4-845B-8EC5F869F939" name="Salarios">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:23:48 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="6B7F33DC-6360-AD3D-50BC-FDE11CA07138">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:23:56 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEmpregado" id="17FA3BEB-5778-2B67-16FC-E0455CCFFCE2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:24:09 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="F9E16A4C-C2A2-CA49-F1DC-3B0434218E7D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:24:30 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A484958D-52D5-8FB0-EAA4-27B23B424F81" name="Salarios PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:24:04 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B7F33DC-6360-AD3D-50BC-FDE11CA07138</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
