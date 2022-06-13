@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE4B6534-6AAF-1EA2-64A6-2CC8F894F00C" name="Produtos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-08 00:04:11 UTC</createdTime>
+<generatorID>6BC644A2-9534-9F2F-86A8-17AC2CEA05AF</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="CF120904-A97F-A8B5-3BC3-CCA3CCFD25D2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-08 00:04:11 UTC</createdTime>
+<generatorID>13531266-EB4D-62C6-A2F2-2119EA27A779</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeProduto" id="DA738058-C86E-BE1F-D732-3D0157D867E5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-08 00:04:11 UTC</createdTime>
+<generatorID>3E07B0C4-5396-EAE8-3E5D-791BCA32F815</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preco" id="8C366925-F2CB-F31D-744E-0390C9FF16AF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-08 00:04:11 UTC</createdTime>
+<generatorID>2E971323-C5ED-16AE-52E8-F4DF60F2FFA8</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ativo" id="7FAAEEEC-E183-512A-2053-0CA7348854A8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-08 00:04:11 UTC</createdTime>
+<generatorID>3B37D35F-64E0-84F7-3B27-E9849672EE7B</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06F9F8B1-D124-58C0-1475-AF151954A120" name="Produtos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-08 00:04:11 UTC</createdTime>
+<generatorID>63398A13-44EF-EA56-1B35-60F8E7433270</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF120904-A97F-A8B5-3BC3-CCA3CCFD25D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F392BC2-903C-5297-8883-1C40E41FD6CB" name="ContasBancarias">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:40:17 UTC</createdTime>
+<generatorID>01E67028-8E2D-8341-9B03-33B08F75C997</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="6FFA2864-F8B1-A000-83E8-0B0127D05349">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:40:17 UTC</createdTime>
+<generatorID>89FF2D0E-C452-E419-661F-C5FCB6999F4D</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="D471B4E3-59E4-27A0-22C8-53844777DED2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:40:17 UTC</createdTime>
+<generatorID>321600E1-6CEE-3D55-9DA7-083B10C347C2</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoConta" id="A64D9C7C-B699-5AEA-0471-E8B6BAD41A09">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:40:17 UTC</createdTime>
+<generatorID>D26D2EDC-C0F9-8D4C-703C-3ECFA5C1C893</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20EAF33B-E7ED-66FB-A8CE-21DBE1A13F47" name="ContasBancarias_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:40:17 UTC</createdTime>
+<generatorID>D388F92E-B4B7-2420-314C-409420F70A67</generatorID>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FFA2864-F8B1-A000-83E8-0B0127D05349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_ValidarContaBancaria" directorySegmentName="seg_0" id="29C4CC94-4DF6-10EF-E3CB-BB63BD571039">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:46:22 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<rule><![CDATA[TipoConta IN ("Poupança","Corrente","Investimento","Sálario")]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,27 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35AA0F1A-8C37-DCFF-826E-A1E356AA6259" name="Estado">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5091E2FC-1E6A-1F53-72FC-B67D9323728F" name="Enderecos">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-30 18:07:32 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
-<ordsAlias>table_9</ordsAlias>
+<createdTime>2022-06-13 19:51:45 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="IdEstado" id="12308488-7D90-DB52-C0A5-05D44AB8D0E7">
+<Column name="IdEndereco" id="85C0047A-8D85-B361-F1D0-76EC0178FF0D">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-30 18:07:41 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
+<createdTime>2022-06-13 19:52:20 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nome" id="3764E8A2-A8F0-14E6-EB6A-2F0FF8AB7A67">
+<Column name="Rua" id="DC5DDDB0-F425-6BD9-2995-7A364D879093">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-30 18:07:55 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
+<createdTime>2022-06-13 19:52:46 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -29,38 +29,39 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Sigla" id="CB71E1CB-3FC7-CD8C-8A8A-9B68C7E2DB07">
+<Column name="Bairro" id="2B58BBF9-6C0A-EF7F-63C3-9934B9744223">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-30 18:08:04 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
+<createdTime>2022-06-13 19:53:03 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="D6C85A1E-F78B-9806-806C-12649E8DFA2D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 19:53:17 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CodigoIBGE" id="7D4FCD02-9DDC-93B0-2B3E-9F65392331CD">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-05-24 20:41:30 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT042</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="44B49D79-EA00-5953-9E83-7EA430E25D3B" name="Estado_PK">
+<ind_PK_UK id="AD3FD8AC-DCF8-DFC2-2A46-10D0B34689DD" name="Enderecos_PK">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-30 18:13:45 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
+<createdTime>2022-06-13 19:52:20 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="12308488-7D90-DB52-C0A5-05D44AB8D0E7"/>
+<colUsage columnID="85C0047A-8D85-B361-F1D0-76EC0178FF0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

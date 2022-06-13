@@ -22,10 +22,11 @@
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-20 12:43:51 UTC</createdTime>
 <ownerDesignName>Aviao</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IdTipoAviao" id="647C9FD2-1556-139C-22CE-EE943509FEED">

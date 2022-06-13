@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01E67028-8E2D-8341-9B03-33B08F75C997" name="ContasBancarias">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:39:12 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="89FF2D0E-C452-E419-661F-C5FCB6999F4D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:39:23 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="321600E1-6CEE-3D55-9DA7-083B10C347C2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:39:33 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoConta" id="D26D2EDC-C0F9-8D4C-703C-3ECFA5C1C893">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:39:51 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D388F92E-B4B7-2420-314C-409420F70A67" name="ContasBancarias PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-07 23:39:27 UTC</createdTime>
+<ownerDesignName>Modelo_Salarios</ownerDesignName>
+<engineerTo>
+<item key="8A1233D2-157F-0DE3-5279-89F220351634" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89FF2D0E-C452-E419-661F-C5FCB6999F4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

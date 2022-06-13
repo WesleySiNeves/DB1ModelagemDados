@@ -15,7 +15,9 @@
 <commentInRDBMS><![CDATA[Chave Primária da tabela]]></commentInRDBMS>
 <generatorID>999C22A4-48CF-3C46-7C9E-76686D0B9095</generatorID>
 <ownerDesignName>Estudante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -56,44 +58,6 @@
 <logicalDatatype>LOGDT034</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Rua" id="D0FB0BE0-DE25-35B7-A23C-5755AE5B438C">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 19:53:36 UTC</createdTime>
-<generatorID>E7B5CEC5-1B0A-8238-D18A-3E98A37EFB77</generatorID>
-<ownerDesignName>Estudante</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Numero" id="0E9CA4B2-FFC9-A3FE-3223-F07FB1AB5684">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 16:28:38 UTC</createdTime>
-<ownerDesignName>Estudante</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Bairro" id="7C0969E3-7E35-373E-29C9-A94CD75A5C58">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 16:28:38 UTC</createdTime>
-<ownerDesignName>Estudante</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CEP" id="12821E3A-B31B-A5AB-76C2-0DF91355B384">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 16:28:38 UTC</createdTime>
-<ownerDesignName>Estudante</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

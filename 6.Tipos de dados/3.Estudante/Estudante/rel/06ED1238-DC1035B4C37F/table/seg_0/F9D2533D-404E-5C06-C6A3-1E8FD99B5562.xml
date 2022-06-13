@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9D2533D-404E-5C06-C6A3-1E8FD99B5562" name="EnderecosEstudantes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:03 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="2BD064B8-0B2C-A720-25E3-53E75FCDAEA2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:29 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estudante_IdEstudante" id="CD81CC95-F558-84CB-5CBB-4EA02F11DD6B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:38 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDBA3197-53B7-08C6-3A99-544261F72EBA" referredColumn="F97D997F-4E8F-B5F7-AA38-D4BCE88F0DE3"/>
+</associations>
+</Column>
+<Column name="Enderecos_IdEndereco" id="CA4E238B-5A71-2D21-CCF2-0E3122C6E52E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:58 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5356F8FA-158F-A0AE-8EEF-56E95FAA3B63" referredColumn="85C0047A-8D85-B361-F1D0-76EC0178FF0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7492D173-ACB8-834E-52B9-E65321FC1A5A" name="EnderecosEstudantes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:29 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD064B8-0B2C-A720-25E3-53E75FCDAEA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC51D979-C154-C531-3CCE-0AD552F2237B" name="EnderecosEstudantes_Estudante_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:38 UTC</createdTime>
+<generatorID>456456F5-C52E-B5A4-811E-87A99454DFCB</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD81CC95-F558-84CB-5CBB-4EA02F11DD6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3D89389-147C-A0B9-746B-366CDBBC6147" name="EnderecosEstudantes_Enderecos_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:04:58 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA4E238B-5A71-2D21-CCF2-0E3122C6E52E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

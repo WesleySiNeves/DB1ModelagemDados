@@ -25,10 +25,11 @@
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-30 18:06:01 UTC</createdTime>
 <ownerDesignName>Aviao</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IdEstado" id="C9862141-1801-091F-CC6B-1EDF67854246">
@@ -48,9 +49,9 @@
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-05-24 20:41:02 UTC</createdTime>
 <ownerDesignName>Aviao</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

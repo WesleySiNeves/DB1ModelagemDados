@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F69B58A4-DAB3-253F-BFEB-BF9703864375" containerWithKeyObject="93E5FA58-4CBC-F9F5-62A6-4B4147DFAF76" localFKIndex="2A1D8AEC-5554-FFAE-32FC-508B249E6F20" name="Dependentes_TipoParentesco_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:59:30 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<referredTableLongName>TipoParentesco</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90DFF26C-37F1-B9E2-D878-07146014656A</referredTableID>
+<keyObject>AC98AC29-A1B0-2733-5DDB-51A0DECF4829</keyObject>
+<referredKeyID>AC98AC29-A1B0-2733-5DDB-51A0DECF4829</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoParentesco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>FF60B2A0-E67B-2469-1050-B2E7592234FF</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -24,9 +24,11 @@
 <createdTime>2022-04-30 18:16:49 UTC</createdTime>
 <generatorID>F6C5AFF4-F7B9-2F53-169E-8CB4AD9AB4FD</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sexo" id="2E8380C8-732F-196B-5E43-A98E48E5C40B">
@@ -34,9 +36,11 @@
 <createdTime>2022-04-30 18:16:49 UTC</createdTime>
 <generatorID>8CCD0FF5-445A-10D3-896F-C53064924099</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DataNascimento" id="EC2DF5C8-92A9-AECD-8A3F-D7D3CE62A822">
@@ -45,21 +49,13 @@
 <generatorID>2551F7C7-A82C-B516-7095-CB350CCC4C48</generatorID>
 <ownerDesignName>Empregado</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Parentesco" id="5F2976A5-499B-8EFD-AB61-0F7D83ABB635">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-30 18:16:49 UTC</createdTime>
-<generatorID>9FB2B0D8-C4F2-ABC6-AEFA-6F29BD954F1E</generatorID>
-<ownerDesignName>Empregado</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Empregados_IdEmpregado" id="C9CA43C7-BCCC-C876-49EE-9EFCF2C54DE4">
+<Column name="IdEmpregado" id="C9CA43C7-BCCC-C876-49EE-9EFCF2C54DE4">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-30 18:16:49 UTC</createdTime>
 <generatorID>D3EC6773-46C9-8DF5-9B93-06DDBF70B300</generatorID>
@@ -72,6 +68,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0EE75E3B-8448-16B1-70FF-11803DA0DB14" referredColumn="C43074D3-97D2-66DF-8B61-313266C3B587"/>
+</associations>
+</Column>
+<Column name="IdTipoParentesco" id="C4DB6672-8358-6AC3-A439-6A9E6A38DB1D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:59:30 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F69B58A4-DAB3-253F-BFEB-BF9703864375" referredColumn="FF60B2A0-E67B-2469-1050-B2E7592234FF"/>
 </associations>
 </Column>
 </columns>
@@ -97,6 +107,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C9CA43C7-BCCC-C876-49EE-9EFCF2C54DE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A1D8AEC-5554-FFAE-32FC-508B249E6F20" name="Dependentes_TipoParentesco_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-13 20:59:30 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4DB6672-8358-6AC3-A439-6A9E6A38DB1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
