@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28851305-C401-BFDE-D268-C5E86D6DF570" name="FuncionariosProjetos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>EAEBB0B4-1F4B-DB63-9685-FF66780F739E</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Func_CPF" id="1EC32134-7FFA-70BF-7A30-9276A18DE61B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>571BA518-1C9D-4535-B3B3-F127F41B0D39</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="084C586C-A5DE-F591-F204-ED02CC521F86" referredColumn="5201BE69-F95E-9927-5ABD-6051882C05AF"/>
+</associations>
+</Column>
+<Column name="Cod_Projeto" id="F6E6C791-07D0-FA60-2970-366119D08947">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>36855A9F-FB8E-CCC9-1FC5-2A15A993FB23</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HorasTrabalhadas" id="31FED78D-8997-5A09-BB42-C9725B7E37BC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>3992867C-F36F-DE58-41A8-64CB2BC41D11</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projeto_Nome" id="202EE78C-5BD9-02C7-CDFC-D98220B27A62">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>18E49B69-9CEB-72B5-53AA-BE914CA1CCE1</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projeto_APP" id="B634D7C2-7D5E-B2B7-3D52-22545F2A805E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>9B8CE06C-A059-3380-9B1B-7FF957A4F7CC</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FA6CD8A-917B-411C-715B-F12A70AF4A61" name="FuncionariosProjetos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>50D3531A-CD15-0416-D873-A19D59B6DAED</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EC32134-7FFA-70BF-7A30-9276A18DE61B"/>
+<colUsage columnID="F6E6C791-07D0-FA60-2970-366119D08947"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DB4E1A2-ACB3-F8E5-A07F-D88C78092829" name="FuncionariosProjetos_Funcionarios_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>3C6CBCCF-D3C2-39EF-A000-39545EB21DC1</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EC32134-7FFA-70BF-7A30-9276A18DE61B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

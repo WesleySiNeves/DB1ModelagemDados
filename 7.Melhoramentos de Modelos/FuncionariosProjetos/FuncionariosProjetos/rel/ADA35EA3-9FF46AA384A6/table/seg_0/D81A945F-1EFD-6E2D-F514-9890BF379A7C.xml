@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D81A945F-1EFD-6E2D-F514-9890BF379A7C" name="Funcionarios">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>25DB0077-6607-DACA-7AF5-585430C906C8</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fun_CPF" id="5201BE69-F95E-9927-5ABD-6051882C05AF">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>06AF25C2-2765-AD14-59C7-4B3969B06C4B</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Func_Nome" id="88CD46B9-38B9-BF50-F929-88294202829F">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>CA6EF82C-B749-E496-5F8D-FE2E9817EEB1</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17C45B4F-92B8-295F-311B-14F2DDD99AA1" name="Funcionarios_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:31:35 UTC</createdTime>
+<generatorID>95CA33E5-449B-7BCE-1250-929309BAE824</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5201BE69-F95E-9927-5ABD-6051882C05AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
