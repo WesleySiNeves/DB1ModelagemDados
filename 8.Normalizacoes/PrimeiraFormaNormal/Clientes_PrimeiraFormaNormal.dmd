@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Clientes_PrimeiraFormaNormal" id="59741522-6389-9D8F-4271-49A3E4492CF1" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 17:58:28 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>59741522-6389-9D8F-4271-49A3E4492CF1</designId>
+</OSDM_Design>
