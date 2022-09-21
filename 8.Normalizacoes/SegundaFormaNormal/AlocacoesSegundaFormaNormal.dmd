@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AlocacoesSegundaFormaNormal" id="CC432AFC-BB1F-E96F-F9A7-FBAF9789C09B" version="3.5">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 18:04:35 UTC</createdTime>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC432AFC-BB1F-E96F-F9A7-FBAF9789C09B</designId>
+</OSDM_Design>
