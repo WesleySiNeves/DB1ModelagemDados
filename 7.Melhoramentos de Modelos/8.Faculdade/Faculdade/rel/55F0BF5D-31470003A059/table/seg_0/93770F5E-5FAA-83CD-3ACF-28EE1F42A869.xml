@@ -51,7 +51,7 @@
 <ownerDesignName>Faculdade</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT042</logicalDatatype>
+<logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -71,17 +71,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FB6CFEB2-9B40-5339-47A0-0607C1D498AA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="807F936C-561F-AEB7-A707-7EE605233F47" name="Cursos__IDX">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-07-28 14:04:26 UTC</createdTime>
-<ownerDesignName>Faculdade</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>313E2CD6-A7E4-37A9-36E6-189C8600F56C</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="D679BC53-6856-4269-1DD7-D483180FB5E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9F074550-FA3E-4A76-F067-0DE1FACC2F0E" name="Cursos_AreasConhecimento_FK">
