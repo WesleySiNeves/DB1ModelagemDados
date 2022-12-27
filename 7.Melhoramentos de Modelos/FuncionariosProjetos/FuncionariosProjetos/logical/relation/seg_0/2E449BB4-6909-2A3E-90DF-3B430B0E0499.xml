@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FuncionariosProjetos_Funcionarios_FK" directorySegmentName="seg_0" id="2E449BB4-6909-2A3E-90DF-3B430B0E0499">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 22:39:22 UTC</createdTime>
+<generatorID>084C586C-A5DE-F591-F204-ED02CC521F86</generatorID>
+<ownerDesignName>FuncionariosProjetos</ownerDesignName>
+<engineerTo>
+<item key="ADA35EA3-8C6F-76F5-33A9-9FF46AA384A6" value="true"/>
+</engineerTo>
+<sourcePk>0D8106DE-B060-EC90-CFF3-F761E040C40A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>28614E71-BFE8-629E-DD41-E320D45D9DC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A653E2DC-E21A-6807-1225-842752B67A17</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

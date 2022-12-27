@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A3CFA17-C582-01B9-CA22-84498A57B458" name="Enderecos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:36:16 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCliente" id="858C5040-8B19-098F-0377-A2B60FACE89D">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:36:16 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Local" id="B17A9F54-6235-5694-2030-A53BE86C17AE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:38:47 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cep" id="74BDF808-2CFD-98A0-48AF-043946294718">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:38:54 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="18F8A0A4-E8A3-7183-0517-8DA829F4BADE">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:39:01 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente1" id="75B35761-32C0-B281-02D2-A9E73C6DB2EB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:39:43 UTC</createdTime>
+<generatorID>67DA036C-0C01-3921-8F91-F95EC03DE174</generatorID>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<referedAttribute>065A0396-8B66-D868-65CE-A592D020C9F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8552A639-C929-D375-0158-ADF646F5F201" name="Clientes PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:36:16 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>858C5040-8B19-098F-0377-A2B60FACE89D</attributeRef>
+<attributeRef>75B35761-32C0-B281-02D2-A9E73C6DB2EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

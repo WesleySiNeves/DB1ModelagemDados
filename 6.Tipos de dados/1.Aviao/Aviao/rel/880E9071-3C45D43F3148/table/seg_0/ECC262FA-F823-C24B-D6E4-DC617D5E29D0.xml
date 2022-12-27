@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECC262FA-F823-C24B-D6E4-DC617D5E29D0" name="AeroportoPousos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:15:28 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdPouso" id="6EF58CCE-9E6D-1223-96C7-3F9B76662EEC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:16:43 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroPista" id="644C995C-7DF1-7581-F47B-AA3DA1191D20">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:16:43 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataAutorizacao" id="E436F809-231A-D44B-74EA-188583905F26">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:17:03 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataInicioPouso" id="8704E504-33EE-2461-735F-6ED71D320017">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:17:21 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataTerminoPouso" id="13D04A5F-939F-7D2B-75A3-F04680E09D46">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:17:37 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PousoFinalizado" id="B69DA6A2-0F6B-0B61-4430-D48A0EDA8BC6">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:18:25 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdAeroporto" id="CA5F7134-65E0-3416-3A35-D4CE86870CCA">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:18:39 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1E7A133-3FF8-9D48-8DAD-C19DD214B666" referredColumn="8DD70D47-F149-144E-11EE-6F6E7CEAA79F"/>
+</associations>
+</Column>
+<Column name="IdAviao" id="E8989CE0-1344-99F3-223E-1E40BC67ECA7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:18:52 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CE3D3B8-F2F9-9A93-0407-91CD2B6133E8" referredColumn="3D3A8402-CBAE-BCDC-5C9B-106CC6FF8071"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71304B82-B09D-9C4D-4E0E-33FA5C73D9FF" name="AeroportoPousos_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:16:43 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF58CCE-9E6D-1223-96C7-3F9B76662EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F9036FC-17DA-6237-FF88-DA5699E54A9E" name="AeroportoPousos_Aeroporto_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:18:39 UTC</createdTime>
+<generatorID>88376EFB-017A-1A22-3DA8-419BE941C077</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA5F7134-65E0-3416-3A35-D4CE86870CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34686C70-4349-2A8E-C36C-4925E928357C" name="AeroportoPousos_Avioes_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:18:52 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8989CE0-1344-99F3-223E-1E40BC67ECA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

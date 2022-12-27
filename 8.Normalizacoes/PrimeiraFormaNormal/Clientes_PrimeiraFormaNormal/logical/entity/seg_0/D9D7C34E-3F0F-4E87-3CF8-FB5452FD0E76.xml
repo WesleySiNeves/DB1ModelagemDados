@@ -40,32 +40,6 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Telefone" id="398CB388-0E51-E9D2-06EC-A5FD3D00D79E">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-09-21 17:59:13 UTC</createdTime>
-<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
-<engineerTo>
-<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Endereco" id="92D1B37F-BC2C-F14E-2E3A-98C50DF39B66">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-09-21 17:59:17 UTC</createdTime>
-<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
-<engineerTo>
-<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="627DE210-B3C0-7E9D-EDB1-39355489DD3C" name="Clientes PK">

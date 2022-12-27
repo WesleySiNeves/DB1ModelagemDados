@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Clientes_Possuem_Enderecos" directorySegmentName="seg_0" id="67DA036C-0C01-3921-8F91-F95EC03DE174">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:39:43 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<sourcePk>627DE210-B3C0-7E9D-EDB1-39355489DD3C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9D7C34E-3F0F-4E87-3CF8-FB5452FD0E76</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3A3CFA17-C582-01B9-CA22-84498A57B458</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

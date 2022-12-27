@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1E7A133-3FF8-9D48-8DAD-C19DD214B666" containerWithKeyObject="ECC262FA-F823-C24B-D6E4-DC617D5E29D0" localFKIndex="3F9036FC-17DA-6237-FF88-DA5699E54A9E" name="AeroportoPousos_Aeroporto_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:18:39 UTC</createdTime>
+<generatorID>88376EFB-017A-1A22-3DA8-419BE941C077</generatorID>
+<ownerDesignName>Aviao</ownerDesignName>
+<referredTableLongName>Aeroporto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>506B4D04-C5EA-FD12-A7E8-5CB711BA7208</referredTableID>
+<keyObject>BF75FE05-AA84-76A3-FB41-748A7B51C9FD</keyObject>
+<referredKeyID>BF75FE05-AA84-76A3-FB41-748A7B51C9FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdAeroporto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>8DD70D47-F149-144E-11EE-6F6E7CEAA79F</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

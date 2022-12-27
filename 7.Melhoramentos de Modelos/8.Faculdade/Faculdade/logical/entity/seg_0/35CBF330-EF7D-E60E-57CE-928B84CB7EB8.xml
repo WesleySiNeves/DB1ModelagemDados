@@ -27,10 +27,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdCurso" id="9199B40A-B365-5A42-541E-DA7B2E0AB038">
+<Attribute name="Nome" id="69B092F2-1DE9-0EF4-526A-E2F34E73DB6C">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:12:02 UTC</createdTime>
-<generatorID>CA5368E5-15F8-1822-7E93-9B0DC513DE7F</generatorID>
+<createdTime>2022-07-26 14:09:40 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CargaHorariaHoras" id="034CAD90-1A8F-3C0F-ED50-AB98B6268AED">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 14:11:05 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ementa" id="CEDF46E7-61F4-D585-C3F5-C59738F991F2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:53:42 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX</dataTypeSize>
+<ownDataTypeParameters>MAX,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCurso" id="F78CA2B4-252F-2BCF-AD53-C20293E6593B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 18:55:25 UTC</createdTime>
+<generatorID>8BF0BF87-F67E-6A1B-489F-ADDC19ECA7C7</generatorID>
 <ownerDesignName>Faculdade</ownerDesignName>
 <engineerTo>
 <item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
@@ -47,8 +85,9 @@
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-22 18:11:34 UTC</createdTime>
 <ownerDesignName>Faculdade</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

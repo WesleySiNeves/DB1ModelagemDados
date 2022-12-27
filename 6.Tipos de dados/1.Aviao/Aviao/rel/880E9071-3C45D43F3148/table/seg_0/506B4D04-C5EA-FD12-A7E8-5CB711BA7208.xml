@@ -19,19 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CodAereo" id="4EDD4FBA-B59F-3ECD-702B-2006C4ADF1B3">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-19 19:32:40 UTC</createdTime>
-<comment><![CDATA[Coluna chave alterativa]]></comment>
-<commentInRDBMS><![CDATA[Coluna chave alterativa]]></commentInRDBMS>
-<generatorID>38602FAB-D352-DAF0-D6B0-1CA3D5645326</generatorID>
-<ownerDesignName>Aviao</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Nome" id="69ECB6C0-9A8A-CC82-59AD-43B4490A5F52">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-19 19:32:40 UTC</createdTime>
@@ -63,7 +50,7 @@
 <ownerDesignName>Aviao</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT018</logicalDatatype>
+<logicalDatatype>LOGDT042</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

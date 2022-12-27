@@ -9,8 +9,7 @@
 <showLabels>true</showLabels>
 <showRelAttributes>true</showRelAttributes>
 <gridEnabled>true</gridEnabled>
-<showGrid>true</showGrid>
-<showPageGrid>true</showPageGrid>
+<showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <legendPosX>698</legendPosX>
 <legendPosY>0</legendPosY>
@@ -51,10 +50,10 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="171" y="315"/>
-<point x="291" y="281"/>
-<point x="291" y="220"/>
-<point x="340" y="220"/>
+<point x="131" y="265"/>
+<point x="235" y="265"/>
+<point x="235" y="270"/>
+<point x="340" y="270"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="59C967EE-05F3-99E0-E669-8C03AEE5A4FA" otype="Relation" vid_source="ABA0CE15-3945-45BA-B561-38AF36ABA0FF" vid_target="381BD3A5-219E-E8F1-DE7D-1A34A77BB944">

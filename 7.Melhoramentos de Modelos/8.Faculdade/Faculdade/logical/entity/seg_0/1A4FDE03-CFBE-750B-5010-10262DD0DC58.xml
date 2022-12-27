@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="103D93E5-7AD3-6C84-BBE5-92D2A028E378" name="Notas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A4FDE03-CFBE-750B-5010-10262DD0DC58" name="Salas">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:02:07 UTC</createdTime>
+<createdTime>2022-07-26 17:17:20 UTC</createdTime>
 <ownerDesignName>Faculdade</ownerDesignName>
 <engineerTo>
 <item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdNota" id="35F3066D-FC98-0791-9CE0-01193A20762D">
+<Attribute name="IdSala" id="1380C8FE-06B6-D519-BC6C-2DDED91A0C63">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:02:11 UTC</createdTime>
+<createdTime>2022-07-26 17:17:28 UTC</createdTime>
 <ownerDesignName>Faculdade</ownerDesignName>
 <engineerTo>
 <item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
@@ -27,43 +27,63 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TipoNota" id="D45E3299-C70F-A11C-B56D-37CB676397BD">
+<Attribute name="PossueQuadroBranco" id="976E7E27-15D0-0F8A-3CF7-F66D23182DDD">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:02:38 UTC</createdTime>
+<createdTime>2022-07-26 17:17:32 UTC</createdTime>
 <ownerDesignName>Faculdade</ownerDesignName>
 <engineerTo>
 <item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdAluno" id="F253AE6A-0AF4-466F-4653-1CE85EFED870">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:08:54 UTC</createdTime>
-<generatorID>FE897EDB-7356-55A9-8ECF-4D6B033397B4</generatorID>
-<ownerDesignName>Faculdade</ownerDesignName>
-<engineerTo>
-<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
-</engineerTo>
-<referedAttribute>B109A973-CF7B-06EF-4A09-18C48129E7CC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT034</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdDisciplina" id="ECF772B7-5CF9-54B5-1F0F-409FFD500DAD">
+<Attribute name="PossueArCondicionado" id="BFB9E5BB-3550-F00B-DC68-D485051D3AE6">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:12:45 UTC</createdTime>
-<generatorID>3187717D-5C4A-3555-020A-6C96856DE63D</generatorID>
+<createdTime>2022-07-26 17:17:50 UTC</createdTime>
 <ownerDesignName>Faculdade</ownerDesignName>
 <engineerTo>
 <item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
 </engineerTo>
-<referedAttribute>9BA46AD1-C4BF-5E62-A05D-09ABAC5C4817</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PossueProjetor" id="C476708A-1F65-4690-A6C9-267159F2DCFB">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:18:07 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CapacidadeMaximaAlunos" id="9FB1FC82-1FC3-23AC-B853-DE23E162593E">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-26 17:18:30 UTC</createdTime>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdInstituicaoEnsinoCampus" id="0183EB0A-17F6-1969-F027-D9BFB2AE9BB2">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-07-27 12:00:20 UTC</createdTime>
+<generatorID>AD90EB2C-A602-A5C2-EFED-E0DFFB0EA83D</generatorID>
+<ownerDesignName>Faculdade</ownerDesignName>
+<engineerTo>
+<item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
+</engineerTo>
+<referedAttribute>4C277D51-E298-DB07-B422-68F6C8CB49C3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -71,16 +91,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F5214D76-76D8-A9F7-CE8B-F556A8E035C6" name="Notas PK">
+<identifier id="17CCEE08-AB64-E836-5E24-395236715DC3" name="Salas PK">
 <createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-04-22 18:02:24 UTC</createdTime>
+<createdTime>2022-07-26 17:19:31 UTC</createdTime>
 <ownerDesignName>Faculdade</ownerDesignName>
 <engineerTo>
 <item key="55F0BF5D-A587-911D-9A0C-31470003A059" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>35F3066D-FC98-0791-9CE0-01193A20762D</attributeRef>
+<attributeRef>1380C8FE-06B6-D519-BC6C-2DDED91A0C63</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

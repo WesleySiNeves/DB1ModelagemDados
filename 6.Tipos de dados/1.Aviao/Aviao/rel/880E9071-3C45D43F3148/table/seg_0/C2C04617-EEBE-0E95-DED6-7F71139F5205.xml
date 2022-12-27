@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2C04617-EEBE-0E95-DED6-7F71139F5205" name="Empresas">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:12:56 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEmpresa" id="8AE805BD-02DE-9C2B-7339-CED2122089AC">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:13:33 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="A3F52C66-238B-6315-733A-77FCF0545381">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:13:33 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJ" id="AA1E8721-37AB-8F25-6490-691932769481">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:13:46 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeFantasia" id="C51D6BD1-760D-A66D-9B31-A9A4DB994E3B">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:14:05 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="480CECC9-76D3-2355-1FF8-3D6A1520EAF5" name="Empresas_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:13:33 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AE805BD-02DE-9C2B-7339-CED2122089AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -39,32 +39,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LocalizacaoProjeto" id="1D3725F9-CAE4-2B08-6551-DE9EA901E9C3">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-09-21 18:05:40 UTC</createdTime>
-<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
-<engineerTo>
-<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NomeEmpregado" id="C03B9C24-391B-640F-3BAF-7F5459687D4E">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-09-21 18:05:52 UTC</createdTime>
-<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
-<engineerTo>
-<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="HorasTrabalhadas" id="CED741F6-6EEA-2D79-F26E-AB3ABCEEE882">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-09-21 18:06:04 UTC</createdTime>
@@ -79,6 +53,34 @@
 <dataTypeScale>8</dataTypeScale>
 <ownDataTypeParameters>,2,8</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CodEmpregado1" id="A63BF0A8-52E0-C721-1B2E-6D6FEF2CB510">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:43:42 UTC</createdTime>
+<generatorID>5C5B2C89-E924-CE23-DD83-C33488AA3513</generatorID>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
+</engineerTo>
+<referedAttribute>0DC1D180-E308-3070-A1CC-A530359B3178</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodProjeto1" id="1CC454F4-1D76-E9A6-F080-893FEF53FB81">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:45:18 UTC</createdTime>
+<generatorID>1874E4A7-F7BE-A7EF-F917-7E39D8D63F8C</generatorID>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
+</engineerTo>
+<referedAttribute>A88E96FA-CE50-DC1F-B320-3C9BF8612381</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="60C70A66-F64B-04FE-93F4-2E610172299C" name="Alocacoes PK">
@@ -91,6 +93,9 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>3ECC623A-2080-0541-E51F-EDDE980BBE5C</attributeRef>
+<attributeRef>857CF634-3CBF-7A67-913F-8B483C0AF414</attributeRef>
+<attributeRef>A63BF0A8-52E0-C721-1B2E-6D6FEF2CB510</attributeRef>
+<attributeRef>1CC454F4-1D76-E9A6-F080-893FEF53FB81</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

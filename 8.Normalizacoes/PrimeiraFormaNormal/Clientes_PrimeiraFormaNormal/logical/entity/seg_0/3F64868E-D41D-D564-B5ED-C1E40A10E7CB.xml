@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F64868E-D41D-D564-B5ED-C1E40A10E7CB" name="Telefones">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:36:54 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTelefone" id="FFB4DCE7-E427-8A68-2AC1-292CE90C4F51">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:37:02 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente" id="EBE97769-3B32-E7A2-486B-9DD71C0B7516">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:37:14 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="CC4803BA-9995-DBED-5FE3-13C16FD7B5F8">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:37:31 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente1" id="0A0DE5F5-026B-43A1-87CD-8D012CBB05B4">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:38:01 UTC</createdTime>
+<generatorID>AF3B29F4-6009-5E71-CF38-E95EAEACB1C0</generatorID>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<referedAttribute>065A0396-8B66-D868-65CE-A592D020C9F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EECF95D-55B1-94B6-214E-D2CDA20F7026" name="Telefones PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:37:12 UTC</createdTime>
+<ownerDesignName>Clientes_PrimeiraFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="AB58F359-652A-91E7-4093-1E28106F165B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFB4DCE7-E427-8A68-2AC1-292CE90C4F51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

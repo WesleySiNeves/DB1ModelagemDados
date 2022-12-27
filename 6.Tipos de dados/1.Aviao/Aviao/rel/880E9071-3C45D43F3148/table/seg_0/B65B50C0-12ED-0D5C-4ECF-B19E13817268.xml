@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B65B50C0-12ED-0D5C-4ECF-B19E13817268" name="Avioes">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:52:06 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAviao" id="3D3A8402-CBAE-BCDC-5C9B-106CC6FF8071">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:52:32 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="1E4D93F8-36FB-48AC-C916-C9160797CA97">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:52:47 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantidadeAssentos" id="CC6CE761-183D-D08B-3784-717433D254B7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:53:25 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoAviao_IdTipoAviao" id="F23C63DC-085E-45EC-81AB-2CB4B2277683">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:53:56 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2E4578C-6603-6AC8-172E-8ED7310F9673" referredColumn="16B8C597-B0AE-10E1-8083-41D646950E3A"/>
+</associations>
+</Column>
+<Column name="IdEmpresa" id="026CF013-F437-FBF7-6EDE-C87ABA60E5A1">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:14:18 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D146E44-64EF-4D21-BC6A-FC4C75C0183E" referredColumn="8AE805BD-02DE-9C2B-7339-CED2122089AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8B5BA0A-EA32-F595-7FF7-7B548DC0A8AA" name="Avioes_PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:52:32 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3A8402-CBAE-BCDC-5C9B-106CC6FF8071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9F0DB86-D6A7-6157-699A-E694154CB9F3" name="Avioes_TipoAviao_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:53:56 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F23C63DC-085E-45EC-81AB-2CB4B2277683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB088A9B-05DC-0C98-89C8-EF8127862299" name="Avioes_Empresas_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 13:14:18 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026CF013-F437-FBF7-6EDE-C87ABA60E5A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

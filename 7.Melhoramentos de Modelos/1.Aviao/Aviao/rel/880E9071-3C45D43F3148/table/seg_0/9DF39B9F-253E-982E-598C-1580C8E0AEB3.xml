@@ -14,12 +14,11 @@
 <ownerDesignName>Aviao</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT057</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="02D24120-649E-B02F-B346-24FC622E87E2" referredColumn="8DD70D47-F149-144E-11EE-6F6E7CEAA79F"/>
-<colAssociation fkAssociation="9C8D785C-4792-8188-1565-193B33F8A139" referredColumn="DEE1AC50-9FD7-AD25-6F10-765ECC616461"/>
 </associations>
 </Column>
 <Column name="NomeCidade" id="4DB4ACE5-D675-0E15-C8A4-248BE60A13C4">
@@ -29,7 +28,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IdEstado" id="C9862141-1801-091F-CC6B-1EDF67854246">
@@ -77,16 +78,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C9862141-1801-091F-CC6B-1EDF67854246"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="58499CC4-F66E-464E-983D-0417A706E5BA" name="FK_Empresas_Localizadada_Cidade">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-05-02 12:50:34 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="34305D55-0CBB-6B19-8E69-5326E304E7FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -19,6 +19,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Nome" id="B0866175-FD14-F726-0DAD-577F5B9D5CD7">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 17:54:38 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="04742E4D-C7AF-B526-9A2F-5C916DD37127" name="Empregados_PK">

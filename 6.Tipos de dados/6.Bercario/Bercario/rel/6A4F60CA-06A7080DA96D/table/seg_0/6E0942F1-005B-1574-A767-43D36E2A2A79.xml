@@ -1,9 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E0942F1-005B-1574-A767-43D36E2A2A79" name="MedicosExecutamParto">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E0942F1-005B-1574-A767-43D36E2A2A79" name="FK_Medicos_Executam_Parto">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-04-30 19:22:33 UTC</createdTime>
 <ownerDesignName>Bercario</ownerDesignName>
-<ordsAlias>fk_medicos_executam_parto</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -43,7 +42,7 @@
 <ownerDesignName>Bercario</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <isRelationshipColumn>true</isRelationshipColumn>

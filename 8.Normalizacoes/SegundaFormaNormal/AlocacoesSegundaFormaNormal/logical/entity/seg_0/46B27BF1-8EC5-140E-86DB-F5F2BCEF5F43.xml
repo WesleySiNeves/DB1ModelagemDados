@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46B27BF1-8EC5-140E-86DB-F5F2BCEF5F43" name="Projetos">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:44:00 UTC</createdTime>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodProjeto" id="A88E96FA-CE50-DC1F-B320-3C9BF8612381">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:44:07 UTC</createdTime>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocalizacaoProjeto" id="0F44C592-EA70-3B93-3D3E-4D70F07A8877">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:44:14 UTC</createdTime>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88986E4F-5FDC-9CE8-A411-63D755838030" name="Projetos PK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-09-21 19:44:26 UTC</createdTime>
+<ownerDesignName>AlocacoesSegundaFormaNormal</ownerDesignName>
+<engineerTo>
+<item key="2A0C396C-BB5B-7436-C81A-CD94CE93EED7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A88E96FA-CE50-DC1F-B320-3C9BF8612381</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

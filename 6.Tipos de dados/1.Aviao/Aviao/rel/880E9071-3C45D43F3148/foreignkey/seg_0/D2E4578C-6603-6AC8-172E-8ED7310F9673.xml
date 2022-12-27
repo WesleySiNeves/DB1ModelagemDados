@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2E4578C-6603-6AC8-172E-8ED7310F9673" containerWithKeyObject="B65B50C0-12ED-0D5C-4ECF-B19E13817268" localFKIndex="A9F0DB86-D6A7-6157-699A-E694154CB9F3" name="Avioes_TipoAviao_FK">
+<createdBy>Wesley.Neves</createdBy>
+<createdTime>2022-06-14 00:53:56 UTC</createdTime>
+<ownerDesignName>Aviao</ownerDesignName>
+<referredTableLongName>TipoAviao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>643FB10C-3F7C-9BD9-552A-F120DAA19653</referredTableID>
+<keyObject>5491A10A-4B7F-3B0E-C784-FD18E6FE9CCE</keyObject>
+<referredKeyID>5491A10A-4B7F-3B0E-C784-FD18E6FE9CCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoAviao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>16B8C597-B0AE-10E1-8083-41D646950E3A</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

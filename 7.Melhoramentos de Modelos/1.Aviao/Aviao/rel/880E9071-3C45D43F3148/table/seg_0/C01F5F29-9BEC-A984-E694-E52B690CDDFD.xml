@@ -28,7 +28,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CNPJ" id="CEF333CC-5B89-A4C5-F90C-4EC6D74521D8">
@@ -36,8 +38,11 @@
 <createdTime>2022-05-02 12:47:11 UTC</createdTime>
 <ownerDesignName>Aviao</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ObjetoSocial" id="E9756854-A513-88FF-04E9-B4038B305214">
@@ -47,7 +52,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="IdCidade" id="03A925AE-3CD0-ACC9-B5C2-E409129F394B">
@@ -62,17 +69,6 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CE560B42-2631-C288-0493-79B1FA604B0A" name="Empresas_PK">
-<createdBy>Wesley.Neves</createdBy>
-<createdTime>2022-05-02 12:46:20 UTC</createdTime>
-<ownerDesignName>Aviao</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DEE1AC50-9FD7-AD25-6F10-765ECC616461"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="0A14D7B7-30E0-93F2-B144-E7CD1685A9D2" name="FK_TipoAviao_Possue_Empresas">
 <createdBy>Wesley.Neves</createdBy>
 <createdTime>2022-05-02 12:49:18 UTC</createdTime>
